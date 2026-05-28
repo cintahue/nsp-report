@@ -17,37 +17,37 @@ Warning--empty journal in jansen2014sniper
 Done.
 You've used 42 entries,
             4087 wiz_defined-function locations,
-            1019 strings with 15290 characters,
-and the built_in function-call counts, 29231 in all, are:
-= -- 2182
-> -- 849
+            1021 strings with 15407 characters,
+and the built_in function-call counts, 29069 in all, are:
+= -- 2174
+> -- 831
 < -- 181
-+ -- 444
-- -- 164
-* -- 1354
-:= -- 4245
++ -- 436
+- -- 160
+* -- 1340
+:= -- 4235
 add.period$ -- 89
 call.type$ -- 42
 change.case$ -- 43
 chr.to.int$ -- 462
 cite$ -- 44
-duplicate$ -- 2173
-empty$ -- 2575
-format.name$ -- 203
-if$ -- 6866
+duplicate$ -- 2163
+empty$ -- 2567
+format.name$ -- 197
+if$ -- 6826
 int.to.chr$ -- 0
 int.to.str$ -- 42
-missing$ -- 404
+missing$ -- 400
 newline$ -- 149
 num.names$ -- 42
-pop$ -- 1084
+pop$ -- 1070
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2249
+skip$ -- 2241
 stack$ -- 0
 substring$ -- 1134
-swap$ -- 1586
+swap$ -- 1576
 text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 5

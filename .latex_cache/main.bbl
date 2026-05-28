@@ -45,7 +45,7 @@ A.~M. Piotrowska, J.~Hayes, T.~Elahi, S.~Meiser, and G.~Danezis, ``The loopix an
 M.~Rahimi, P.~K. Sharma, and C.~Diaz, ``Larmix: Latency-aware routing in mix networks.'' in \emph{NDSS}, 2024.
 
 \bibitem{rahimi2025lamp}
-------, ``Lamp: Lightweight approaches for latency minimization in mixnets with practical deployment considerations.'' in \emph{NDSS}, 2025.
+{Rahimi, Mahdi and Sharma, Piyush Kumar and Diaz, Claudia}, ``Lamp: Lightweight approaches for latency minimization in mixnets with practical deployment considerations.'' in \emph{NDSS}, 2025.
 
 \bibitem{ben2024blending}
 I.~BEN~GUIRAT, D.~Das, and C.~Diaz, ``Blending different latency traffic with beta mixing,'' \emph{Proceedings on Privacy Enhancing Technologies}, vol. 2024, no.~2, pp. 464--478, 2024.
@@ -57,7 +57,7 @@ L.~Oldenburg, M.~Juarez, E.~A. R{\'u}a, and C.~Diaz, ``Mixmatch: Flow matching f
 P.~Scherer, C.~Weis, and T.~Strufe, ``Provable security for the onion routing and mix network packet format sphinx,'' \emph{arXiv preprint arXiv:2312.08028}, 2023.
 
 \bibitem{scherer2024framework}
-------, ``A framework for provably secure onion routing against a global adversary,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2024.
+{Scherer, Philip and Weis, Christiane and Strufe, Thorsten}, ``A framework for provably secure onion routing against a global adversary,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2024.
 
 \bibitem{chaum1988dining}
 D.~Chaum, ``The dining cryptographers problem: Unconditional sender and recipient untraceability,'' \emph{Journal of cryptology}, vol.~1, no.~1, pp. 65--75, 1988.
