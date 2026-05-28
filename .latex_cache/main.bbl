@@ -1,0 +1,88 @@
+\begin{thebibliography}{10}
+
+\bibitem{azad2023darkhorse}
+Md~Washik Azad, Mohamed Mahmoud, Kemal Akkaya, and Adrian Perrig.
+\newblock {DarkHorse}: A {UDP}-based framework to improve the latency of {Tor} onion services.
+\newblock In {\em Proceedings of the 2023 IEEE Conference on Communications and Network Security (CNS)}, 2023.
+
+\bibitem{bhat2019varcnn}
+Sanjit Bhat, David Lu, Albert Kwon, and Srinivas Devadas.
+\newblock {Var-CNN}: A data-efficient website fingerprinting attack based on deep learning.
+\newblock {\em Proceedings on Privacy Enhancing Technologies (PoPETs)}, 2019(4):292--310, 2019.
+
+\bibitem{dingledine2004tor}
+Roger Dingledine, Nick Mathewson, and Paul Syverson.
+\newblock Tor: The second-generation onion router.
+\newblock In {\em Proceedings of the 13th USENIX Security Symposium}, pages 303--320, 2004.
+
+\bibitem{gegenhuber2023extended}
+Gabriel~K. Gegenhuber, Markus Maier, Florian Holzbauer, Wilfried Mayer, Georg Merzdovnik, Edgar Weippl, and Martin Schmiedecker.
+\newblock An extended view on measuring {Tor} {AS}-level adversaries.
+\newblock In {\em Computers \& Security}, volume 132, page 103302, 2023.
+
+\bibitem{greschbach2017defector}
+Benjamin Greschbach, Tobias Pulls, Laura~M. Roberts, Philipp Winter, and Nick Feamster.
+\newblock The effect of {DNS} on {Tor}'s anonymity.
+\newblock In {\em Proceedings of the 24th Network and Distributed System Security Symposium (NDSS)}, 2017.
+
+\bibitem{holland2020regulator}
+James~K. Holland and Nicholas Hopper.
+\newblock {RegulaTor}: A straightforward website fingerprinting defense.
+\newblock In {\em Proceedings on Privacy Enhancing Technologies (PoPETs)}, volume 2022, pages 344--362, 2022.
+
+\bibitem{luo2026five}
+Zhongtang Luo and Aniket Kate.
+\newblock Five minutes of {DDoS} brings down {Tor}: {DDoS} attacks on the {Tor} directory protocol and mitigations.
+\newblock In {\em Proceedings of the 2026 Network and Distributed System Security Symposium (NDSS)}, 2026.
+
+\bibitem{mani2018understanding}
+Akshaya Mani, T.~Wilson-Brown, Rob Jansen, Aaron Johnson, and Micah Sherr.
+\newblock Understanding {Tor} usage with privacy-preserving measurement.
+\newblock In {\em Proceedings of the 2018 Internet Measurement Conference (IMC)}, pages 175--187, 2018.
+
+\bibitem{nasr2018deepcorr}
+Milad Nasr, Alireza Bahramali, and Amir Houmansadr.
+\newblock {DeepCorr}: Strong flow correlation attacks on {Tor} using deep learning.
+\newblock In {\em Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security (CCS)}, pages 1962--1976, 2018.
+
+\bibitem{rahman2020tiktok}
+Mohammad~Saidur Rahman, Payap Sirinam, Nate Mathews, Kantha~Girish Gangadhara, and Matthew Wright.
+\newblock {Tik-Tok}: The utility of packet timing in website fingerprinting attacks.
+\newblock In {\em Proceedings on Privacy Enhancing Technologies (PoPETs)}, volume 2020, pages 5--24, 2020.
+
+\bibitem{sendner2023tormult}
+Christoph Sendner, Lukas Petzi, Jasper Stang, and Alexandra Dmitrienko.
+\newblock {TorMult}: Introducing a novel {Tor} bandwidth inflation attack.
+\newblock In {\em Proceedings on Privacy Enhancing Technologies (PoPETs)}, 2023.
+
+\bibitem{shadbeh2026reality}
+Erfan Shadbeh, Ishan Karunanayake, Mohamed~Ali Kaafar, and Dinusha Vatsalan.
+\newblock Reality check for {Tor} website fingerprinting in the open world.
+\newblock In {\em Proceedings of the 2026 Network and Distributed System Security Symposium (NDSS)}, 2026.
+
+\bibitem{sirinam2018deep}
+Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright.
+\newblock Deep fingerprinting: Undermining website fingerprinting defenses with deep learning.
+\newblock In {\em Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security (CCS)}, pages 1928--1943, 2018.
+
+\bibitem{sun2017counterraptor}
+Yixin Sun, Anne Edmundson, Nick Feamster, Mung Chiang, and Prateek Mittal.
+\newblock Counter-{RAPTOR}: Safeguarding {Tor} against active routing attacks.
+\newblock In {\em Proceedings of the 2017 IEEE Symposium on Security and Privacy (S\&P)}, pages 977--992, 2017.
+
+\bibitem{vilalonga2026obscura}
+Diogo Vilalonga, Diogo Barradas, and Nuno Santos.
+\newblock {Obscura}: Enabling ephemeral proxies for traffic encapsulation in {WebRTC} media streams against cost-effective censors.
+\newblock In {\em Proceedings of the 2026 IEEE Symposium on Security and Privacy (S\&P)}, 2026.
+
+\bibitem{winter2018how}
+Philipp Winter, Anne Edmundson, Laura~M. Roberts, Agnieszka Dutkowska-{\.Z}uk, Marshini Chetty, and Nick Feamster.
+\newblock How do {Tor} users interact with onion services?
+\newblock In {\em Proceedings of the 27th USENIX Security Symposium}, pages 411--428, 2018.
+
+\bibitem{zhao2024oscar}
+Xiyuan Zhao, Xinhao Deng, Qi~Zhang, Zhuotao Liu, and Ke~Xu.
+\newblock Towards fine-grained webpage fingerprinting at scale.
+\newblock In {\em Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS)}, 2024.
+
+\end{thebibliography}

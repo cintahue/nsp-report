@@ -1,0 +1,53 @@
+% 宏包
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+% 单倍行距
+\renewcommand{\baselinestretch}{1.0}
+\selectfont
+
+% 章节标题格式：黑体加粗，五号字
+\ctexset{
+    section/format = \heiti\bfseries\zihao{5},
+    subsection/format = \heiti\bfseries\zihao{5},
+    subsubsection/format = \heiti\bfseries\zihao{5}
+}
+
+% 重定义 \maketitle，使大标题、作者、日期均为五号字
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{center}%
+    {\heiti\bfseries\zihao{5} \@title \par}%
+    \vskip 2em%
+    {\zihao{5} \@author \par}%
+    \vskip 1.5em%
+    {\zihao{5} \@date \par}%
+  \end{center}%
+  \vskip 2em%
+}
+\makeatother
+
+% 摘要标题格式：黑体加粗，五号字
+\renewcommand{\abstractname}{\heiti\bfseries\zihao{5} 摘要}
+
+% 重定义 abstract 环境，使摘要正文也为五号字（默认是 \small，会偏小）
+\makeatletter
+\renewenvironment{abstract}{%
+  \begin{center}%
+    {\abstractname\vspace{-.5em}\vspace{\z@}}%
+  \end{center}%
+  \zihao{5}%
+  \quotation
+}{%
+  \endquotation
+}
+\makeatother
+
+% 脚注、图表标题等也统一为五号字
+\renewcommand{\footnotesize}{\zihao{5}}
+\usepackage{caption}
+\captionsetup{font={zihao=5}}
