@@ -10,10 +10,58 @@ Sanjit Bhat, David Lu, Albert Kwon, and Srinivas Devadas.
 \newblock {Var-CNN}: A data-efficient website fingerprinting attack based on deep learning.
 \newblock {\em Proceedings on Privacy Enhancing Technologies (PoPETs)}, 2019(4):292--310, 2019.
 
+\bibitem{chaum1988dining}
+David Chaum.
+\newblock The dining cryptographers problem: Unconditional sender and recipient untraceability.
+\newblock {\em Journal of Cryptology}, 1(1):65--75, 1988.
+\newblock DC-Nets原始论文.
+
+\bibitem{chaum1981untraceable}
+David~L. Chaum.
+\newblock Untraceable electronic mail, return addresses, and digital pseudonyms.
+\newblock {\em Communications of the ACM}, 24(2):84--90, 1981.
+\newblock Mix网络的奠基性论文.
+
+\bibitem{cho2024rabbitmix}
+Chongwon Cho et~al.
+\newblock Rabbit-mix: Robust algebraic anonymous broadcast from additive bases.
+\newblock In {\em Proceedings of the 33rd USENIX Security Symposium}, 2024.
+\newblock Mix网络最新进展.
+
+\bibitem{desilva2024guideenricher}
+Dilum De~Silva et~al.
+\newblock {GuideEnricher}: Protecting the anonymity of ethereum mixing service users with deep reinforcement learning.
+\newblock In {\em Proceedings of the 33rd USENIX Security Symposium}, 2024.
+\newblock 区块链混币技术.
+
 \bibitem{dingledine2004tor}
 Roger Dingledine, Nick Mathewson, and Paul Syverson.
 \newblock Tor: The second-generation onion router.
 \newblock In {\em Proceedings of the 13th USENIX Security Symposium}, pages 303--320, 2004.
+
+\bibitem{dreier2024shaken}
+Jannik Dreier et~al.
+\newblock Shaken, not stirred - automated discovery of subtle attacks on protocols using mix-nets.
+\newblock In {\em Proceedings of the 33rd USENIX Security Symposium}, 2024.
+\newblock Mix网络安全分析.
+
+\bibitem{larmix2023}
+others.
+\newblock {LARMix}: Latency-aware routing in mix networks.
+\newblock In {\em Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)}, 2023.
+\newblock Mix网络延迟优化.
+
+\bibitem{cryptocurrency2023anonymity}
+others.
+\newblock On the anonymity of peer-to-peer network anonymity schemes used by cryptocurrencies.
+\newblock In {\em Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)}, 2023.
+\newblock 区块链P2P匿名性.
+
+\bibitem{gyges2023}
+others.
+\newblock Ring of gyges: Accountable anonymous broadcast via secret-shared shuffle.
+\newblock In {\em Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)}, 2023.
+\newblock 匿名广播系统.
 
 \bibitem{gegenhuber2023extended}
 Gabriel~K. Gegenhuber, Markus Maier, Florian Holzbauer, Wilfried Mayer, Georg Merzdovnik, Edgar Weippl, and Martin Schmiedecker.
@@ -25,10 +73,22 @@ Benjamin Greschbach, Tobias Pulls, Laura~M. Roberts, Philipp Winter, and Nick Fe
 \newblock The effect of {DNS} on {Tor}'s anonymity.
 \newblock In {\em Proceedings of the 24th Network and Distributed System Security Symposium (NDSS)}, 2017.
 
+\bibitem{holland2024false}
+James~K. Holland et~al.
+\newblock A false sense of privacy: Towards a reliable evaluation methodology for the anonymization of biometric data.
+\newblock {\em Proceedings on Privacy Enhancing Technologies (PoPETs)}, 2024, 2024.
+\newblock 匿名性评估方法.
+
 \bibitem{holland2020regulator}
 James~K. Holland and Nicholas Hopper.
 \newblock {RegulaTor}: A straightforward website fingerprinting defense.
 \newblock In {\em Proceedings on Privacy Enhancing Technologies (PoPETs)}, volume 2022, pages 344--362, 2022.
+
+\bibitem{hugenroth2023powering}
+Daniel Hugenroth et~al.
+\newblock Powering privacy: On the energy demand and feasibility of anonymity networks on smartphones.
+\newblock In {\em Proceedings of the 32nd USENIX Security Symposium}, pages 1--18, 2023.
+\newblock 移动端匿名通信.
 
 \bibitem{luo2026five}
 Zhongtang Luo and Aniket Kate.

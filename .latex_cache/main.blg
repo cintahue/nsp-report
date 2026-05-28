@@ -5,45 +5,45 @@ The style file: plain.bst
 Database file #1: references.bib
 Warning--can't use both volume and number fields in holland2020regulator
 Warning--can't use both volume and number fields in rahman2020tiktok
-You've used 17 entries,
+You've used 27 entries,
             2118 wiz_defined-function locations,
-            580 strings with 7701 characters,
-and the built_in function-call counts, 7482 in all, are:
-= -- 692
-> -- 406
-< -- 12
-+ -- 161
-- -- 142
-* -- 506
-:= -- 1149
-add.period$ -- 51
-call.type$ -- 17
-change.case$ -- 122
+            627 strings with 9285 characters,
+and the built_in function-call counts, 10265 in all, are:
+= -- 963
+> -- 506
+< -- 13
++ -- 203
+- -- 172
+* -- 641
+:= -- 1617
+add.period$ -- 91
+call.type$ -- 27
+change.case$ -- 159
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 320
-empty$ -- 588
-format.name$ -- 142
-if$ -- 1624
+cite$ -- 29
+duplicate$ -- 455
+empty$ -- 859
+format.name$ -- 172
+if$ -- 2228
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 17
-newline$ -- 88
-num.names$ -- 34
-pop$ -- 171
+int.to.str$ -- 27
+missing$ -- 27
+newline$ -- 148
+num.names$ -- 54
+pop$ -- 219
 preamble$ -- 1
-purify$ -- 105
+purify$ -- 132
 quote$ -- 0
-skip$ -- 245
+skip$ -- 336
 stack$ -- 0
-substring$ -- 383
-swap$ -- 123
-text.length$ -- 12
+substring$ -- 492
+swap$ -- 145
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
+type$ -- 108
 warning$ -- 2
-while$ -- 61
-width$ -- 19
-write$ -- 185
+while$ -- 88
+width$ -- 29
+write$ -- 309
 (There were 2 warnings)
