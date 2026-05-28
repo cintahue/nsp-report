@@ -56,14 +56,32 @@ others, ``On the anonymity of peer-to-peer network anonymity schemes used by cry
 \bibitem{mani2018understanding}
 A.~Mani, T.~Wilson-Brown, R.~Jansen, A.~Johnson, and M.~Sherr, ``Understanding tor usage with privacy-preserving measurement,'' in \emph{Proceedings of the Internet Measurement Conference 2018}, 2018, pp. 175--187.
 
+\bibitem{winter2018tor}
+P.~Winter, A.~Edmundson, L.~M. Roberts, A.~Dutkowska-{\.Z}uk, M.~Chetty, and N.~Feamster, ``How do tor users interact with onion services?'' in \emph{27th USENIX Security Symposium (USENIX Security 18)}, 2018, pp. 411--428.
+
 \bibitem{sirinam2018deep}
 P.~Sirinam, M.~Imani, M.~Juarez, and M.~Wright, ``Deep fingerprinting: Undermining website fingerprinting defenses with deep learning,'' in \emph{Proceedings of the 2018 ACM SIGSAC conference on computer and communications security}, 2018, pp. 1928--1943.
+
+\bibitem{bhat2018var}
+S.~Bhat, D.~Lu, A.~Kwon, and S.~Devadas, ``Var-cnn: A data-efficient website fingerprinting attack based on deep learning,'' \emph{arXiv preprint arXiv:1802.10215}, 2018.
+
+\bibitem{rahman2019tik}
+M.~S. Rahman, P.~Sirinam, N.~Mathews, K.~G. Gangadhara, and M.~Wright, ``Tik-tok: The utility of packet timing in website fingerprinting attacks,'' \emph{arXiv preprint arXiv:1902.06421}, 2019.
+
+\bibitem{vilalonga2026obscura}
+A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling ephemeral proxies for traffic encapsulation in webrtc media streams against cost-effective censors,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2026.
 
 \bibitem{shadbeh2026reality}
 M.~Shadbeh, K.~Khajavi, and T.~Wang, ``Reality check for tor website fingerprinting in the open world,'' \emph{arXiv preprint arXiv:2603.07412}, 2026.
 
 \bibitem{nasr2018deepcorr}
 M.~Nasr, A.~Bahramali, and A.~Houmansadr, ``Deepcorr: Strong flow correlation attacks on tor using deep learning,'' in \emph{Proceedings of the 2018 ACM SIGSAC conference on computer and communications security}, 2018, pp. 1962--1976.
+
+\bibitem{greschbach2016effect}
+B.~Greschbach, T.~Pulls, L.~M. Roberts, P.~Winter, and N.~Feamster, ``The effect of dns on tor's anonymity,'' \emph{arXiv preprint arXiv:1609.08187}, 2016.
+
+\bibitem{sun2017counter}
+Y.~Sun, A.~Edmundson, N.~Feamster, M.~Chiang, and P.~Mittal, ``Counter-raptor: Safeguarding tor against active routing attacks,'' in \emph{2017 IEEE symposium on security and privacy (SP)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 977--992.
 
 \bibitem{gegenhuber2023extended}
 G.~K. Gegenhuber, M.~Maier, F.~Holzbauer, W.~Mayer, G.~Merzdovnik, E.~Weippl, and J.~Ullrich, ``An extended view on measuring tor as-level adversaries,'' \emph{Computers \& Security}, vol. 132, p. 103302, 2023.
@@ -77,7 +95,7 @@ Z.~Luo, J.~Zhang, A.~Neerati, and A.~Kate, ``Five minutes of ddos brings down to
 \bibitem{holland2020regulator}
 J.~K. Holland and N.~Hopper, ``Regulator: A straightforward website fingerprinting defense,'' \emph{arXiv preprint arXiv:2012.06609}, 2020.
 
-\bibitem{vilalonga2026obscura}
-A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling ephemeral proxies for traffic encapsulation in webrtc media streams against cost-effective censors,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2026.
+\bibitem{al2023darkhorse}
+M.~W. Al~Azad, H.~Zahan, S.~U. Taki, and S.~Mastorakis, ``Darkhorse: A udp-based framework to improve the latency of tor onion services,'' in \emph{2023 IEEE 48th Conference on Local Computer Networks (LCN)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 1--6.
 
 \end{thebibliography}
