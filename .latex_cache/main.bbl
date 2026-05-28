@@ -38,11 +38,35 @@ X.~Zhao, X.~Deng, Q.~Li, Y.~Liu, Z.~Liu, K.~Sun, and K.~Xu, ``Towards fine-grain
 \bibitem{jansen2026measurement}
 R.~Jansen, R.~Wails, and A.~Johnson, ``A measurement of genuine tor traces for realistic website fingerprinting,'' in \emph{International Conference on Passive and Active Network Measurement}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2026, pp. 277--293.
 
-\bibitem{dreier2024shaken}
-J.~Dreier, P.~Lafourcade, and D.~Mahmoud, ``Shaken, not stirred-automated discovery of subtle attacks on protocols using $\{$Mix-Nets$\}$,'' in \emph{33rd USENIX Security Symposium (USENIX Security 24)}, 2024, pp. 3135--3150.
+\bibitem{piotrowska2017loopix}
+A.~M. Piotrowska, J.~Hayes, T.~Elahi, S.~Meiser, and G.~Danezis, ``The loopix anonymity system,'' in \emph{26th usenix security symposium (usenix security 17)}, 2017, pp. 1199--1216.
+
+\bibitem{rahimi2024larmix}
+M.~Rahimi, P.~K. Sharma, and C.~Diaz, ``Larmix: Latency-aware routing in mix networks.'' in \emph{NDSS}, 2024.
+
+\bibitem{rahimi2025lamp}
+------, ``Lamp: Lightweight approaches for latency minimization in mixnets with practical deployment considerations.'' in \emph{NDSS}, 2025.
+
+\bibitem{ben2024blending}
+I.~BEN~GUIRAT, D.~Das, and C.~Diaz, ``Blending different latency traffic with beta mixing,'' \emph{Proceedings on Privacy Enhancing Technologies}, vol. 2024, no.~2, pp. 464--478, 2024.
+
+\bibitem{oldenburg2024mixmatch}
+L.~Oldenburg, M.~Juarez, E.~A. R{\'u}a, and C.~Diaz, ``Mixmatch: Flow matching for mixnet traffic,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2024.
+
+\bibitem{scherer2023provable}
+P.~Scherer, C.~Weis, and T.~Strufe, ``Provable security for the onion routing and mix network packet format sphinx,'' \emph{arXiv preprint arXiv:2312.08028}, 2023.
+
+\bibitem{scherer2024framework}
+------, ``A framework for provably secure onion routing against a global adversary,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2024.
 
 \bibitem{chaum1988dining}
 D.~Chaum, ``The dining cryptographers problem: Unconditional sender and recipient untraceability,'' \emph{Journal of cryptology}, vol.~1, no.~1, pp. 65--75, 1988.
+
+\bibitem{kocaougullar2024pudding}
+C.~Kocao{\u{g}}ullar, D.~Hugenroth, M.~Kleppmann, and A.~R. Beresford, ``Pudding: Private user discovery in anonymity networks,'' in \emph{2024 IEEE Symposium on Security and Privacy (SP)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2024, pp. 3203--3220.
+
+\bibitem{dong2025ring}
+W.~Dong, P.~Jiang, H.~Duan, C.~Wang, L.~Zhao, and Q.~Wang, ``Ring of gyges: Accountable anonymous broadcast via secret-shared shuffle.'' in \emph{NDSS}, 2025.
 
 \bibitem{hugenroth2023powering}
 D.~Hugenroth and A.~R. Beresford, ``Powering privacy: On the energy demand and feasibility of anonymity networks on smartphones,'' in \emph{32nd USENIX Security Symposium (USENIX Security 23)}, 2023, pp. 5431--5448.
