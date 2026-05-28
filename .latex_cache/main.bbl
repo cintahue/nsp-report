@@ -146,4 +146,7 @@ A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling 
 \bibitem{shadbeh2026reality}
 M.~Shadbeh, K.~Khajavi, and T.~Wang, ``Reality check for tor website fingerprinting in the open world,'' \emph{arXiv preprint arXiv:2603.07412}, 2026.
 
+\bibitem{tippe2024onion}
+P.~Tippe and A.~Tippe, ``Onion services in the wild: A study of deanonymization attacks,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2024.
+
 \end{thebibliography}

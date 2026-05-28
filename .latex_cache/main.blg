@@ -8,6 +8,24 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "casenove2014botnet"
+Warning--I didn't find a database entry for "rapid7skynet"
+Warning--I didn't find a database entry for "kaspersky2013chewbacca"
+Warning--I didn't find a database entry for "torproject2013mevade"
+Warning--I didn't find a database entry for "fortinet2017brickerbot"
+Warning--I didn't find a database entry for "fortinet2022enemybot"
+Warning--I didn't find a database entry for "li2025tpoti"
+Warning--I didn't find a database entry for "dodia2022exposing"
+Warning--I didn't find a database entry for "oskera2025periodic"
+Warning--I didn't find a database entry for "wu2024peerg"
+Warning--I didn't find a database entry for "putra2024bcat"
+Warning--I didn't find a database entry for "cebere2024down"
+Warning--I didn't find a database entry for "drichel2024robust"
+Warning--I didn't find a database entry for "xie2024domeye"
+Warning--I didn't find a database entry for "barradas2024extending"
+Warning--I didn't find a database entry for "hossain2025htabotdef"
+Warning--I didn't find a database entry for "karunanayake2024examining"
+Warning--I didn't find a database entry for "liu2024anonymous"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -15,45 +33,45 @@ Warning--empty journal in dingledine2004tor
 Warning--empty journal in jansen2014sniper
 
 Done.
-You've used 42 entries,
+You've used 43 entries,
             4087 wiz_defined-function locations,
-            1021 strings with 15407 characters,
-and the built_in function-call counts, 29069 in all, are:
-= -- 2174
-> -- 831
+            1042 strings with 15824 characters,
+and the built_in function-call counts, 29463 in all, are:
+= -- 2206
+> -- 840
 < -- 181
-+ -- 436
-- -- 160
-* -- 1340
-:= -- 4235
-add.period$ -- 89
-call.type$ -- 42
-change.case$ -- 43
++ -- 440
+- -- 162
+* -- 1356
+:= -- 4307
+add.period$ -- 91
+call.type$ -- 43
+change.case$ -- 44
 chr.to.int$ -- 462
-cite$ -- 44
-duplicate$ -- 2163
-empty$ -- 2567
-format.name$ -- 197
-if$ -- 6826
+cite$ -- 45
+duplicate$ -- 2199
+empty$ -- 2604
+format.name$ -- 200
+if$ -- 6914
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 400
-newline$ -- 149
-num.names$ -- 42
-pop$ -- 1070
+int.to.str$ -- 43
+missing$ -- 406
+newline$ -- 152
+num.names$ -- 43
+pop$ -- 1087
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2241
+skip$ -- 2272
 stack$ -- 0
-substring$ -- 1134
-swap$ -- 1576
+substring$ -- 1135
+swap$ -- 1595
 text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 42
+type$ -- 43
 warning$ -- 2
-while$ -- 119
-width$ -- 44
-write$ -- 383
-(There were 2 warnings)
+while$ -- 120
+width$ -- 45
+write$ -- 391
+(There were 20 warnings)
