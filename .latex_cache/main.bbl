@@ -68,6 +68,15 @@ C.~Kocao{\u{g}}ullar, D.~Hugenroth, M.~Kleppmann, and A.~R. Beresford, ``Pudding
 \bibitem{dong2025ring}
 W.~Dong, P.~Jiang, H.~Duan, C.~Wang, L.~Zhao, and Q.~Wang, ``Ring of gyges: Accountable anonymous broadcast via secret-shared shuffle.'' in \emph{NDSS}, 2025.
 
+\bibitem{holland2023detorrent}
+J.~K. Holland, J.~Carpenter, S.~E. Oh, and N.~Hopper, ``Detorrent: An adversarial padding-only traffic analysis defense,'' \emph{arXiv preprint arXiv:2302.02012}, 2023.
+
+\bibitem{pulls2023maybenot}
+T.~Pulls and E.~Witwer, ``Maybenot: A framework for traffic analysis defenses,'' in \emph{Proceedings of the 22nd Workshop on Privacy in the Electronic Society}, 2023, pp. 75--89.
+
+\bibitem{sabzi2024netshaper}
+A.~Sabzi, R.~Vora, S.~Goswami, M.~Seltzer, M.~L{\'e}cuyer, and A.~Mehta, ``$\{$NetShaper$\}$: A differentially private network $\{$Side-Channel$\}$ mitigation system,'' in \emph{33rd USENIX Security Symposium (USENIX Security 24)}, 2024, pp. 3385--3402.
+
 \bibitem{hugenroth2023powering}
 D.~Hugenroth and A.~R. Beresford, ``Powering privacy: On the energy demand and feasibility of anonymity networks on smartphones,'' in \emph{32nd USENIX Security Symposium (USENIX Security 23)}, 2023, pp. 5431--5448.
 
@@ -121,9 +130,6 @@ Z.~Luo, J.~Zhang, A.~Neerati, and A.~Kate, ``Five minutes of ddos brings down to
 
 \bibitem{holland2020regulator}
 J.~K. Holland and N.~Hopper, ``Regulator: A straightforward website fingerprinting defense,'' \emph{arXiv preprint arXiv:2012.06609}, 2020.
-
-\bibitem{holland2023detorrent}
-J.~K. Holland, J.~Carpenter, S.~E. Oh, and N.~Hopper, ``Detorrent: An adversarial padding-only traffic analysis defense,'' \emph{arXiv preprint arXiv:2302.02012}, 2023.
 
 \bibitem{al2023darkhorse}
 M.~W. Al~Azad, H.~Zahan, S.~U. Taki, and S.~Mastorakis, ``Darkhorse: A udp-based framework to improve the latency of tor onion services,'' in \emph{2023 IEEE 48th Conference on Local Computer Networks (LCN)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 1--6.

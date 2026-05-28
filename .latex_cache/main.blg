@@ -8,7 +8,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
-Warning--I didn't find a database entry for "desilva2024guideenricher"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -16,45 +15,45 @@ Warning--empty journal in dingledine2004tor
 Warning--empty journal in jansen2014sniper
 
 Done.
-You've used 40 entries,
+You've used 42 entries,
             4087 wiz_defined-function locations,
-            1010 strings with 14865 characters,
-and the built_in function-call counts, 27339 in all, are:
-= -- 2040
-> -- 799
-< -- 163
-+ -- 416
-- -- 156
-* -- 1267
-:= -- 3997
-add.period$ -- 85
-call.type$ -- 40
-change.case$ -- 41
-chr.to.int$ -- 414
-cite$ -- 42
-duplicate$ -- 2045
-empty$ -- 2409
-format.name$ -- 193
-if$ -- 6410
+            1019 strings with 15290 characters,
+and the built_in function-call counts, 29231 in all, are:
+= -- 2182
+> -- 849
+< -- 181
++ -- 444
+- -- 164
+* -- 1354
+:= -- 4245
+add.period$ -- 89
+call.type$ -- 42
+change.case$ -- 43
+chr.to.int$ -- 462
+cite$ -- 44
+duplicate$ -- 2173
+empty$ -- 2575
+format.name$ -- 203
+if$ -- 6866
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 382
-newline$ -- 143
-num.names$ -- 40
-pop$ -- 1026
+int.to.str$ -- 42
+missing$ -- 404
+newline$ -- 149
+num.names$ -- 42
+pop$ -- 1084
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2100
+skip$ -- 2249
 stack$ -- 0
-substring$ -- 1020
-swap$ -- 1480
-text.length$ -- 25
+substring$ -- 1134
+swap$ -- 1586
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 40
+type$ -- 42
 warning$ -- 2
-while$ -- 109
-width$ -- 42
-write$ -- 365
-(There were 3 warnings)
+while$ -- 119
+width$ -- 44
+write$ -- 383
+(There were 2 warnings)
