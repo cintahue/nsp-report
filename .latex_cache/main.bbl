@@ -26,11 +26,8 @@ D.~L. Chaum, ``Untraceable electronic mail, return addresses, and digital pseudo
 \bibitem{dingledine2004tor}
 R.~Dingledine, N.~Mathewson, and P.~Syverson, ``Tor: The second-generation onion router,'' 2004.
 
-\bibitem{larmix2023}
-others, ``{LARMix}: Latency-aware routing in mix networks,'' in \emph{Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)}, 2023, mix网络延迟优化.
-
 \bibitem{hugenroth2023powering}
-D.~Hugenroth \emph{et~al.}, ``Powering privacy: On the energy demand and feasibility of anonymity networks on smartphones,'' in \emph{Proceedings of the 32nd USENIX Security Symposium}, 2023, pp. 1--18, 移动端匿名通信.
+D.~Hugenroth and A.~R. Beresford, ``Powering privacy: On the energy demand and feasibility of anonymity networks on smartphones,'' in \emph{32nd USENIX Security Symposium (USENIX Security 23)}, 2023, pp. 5431--5448.
 
 \bibitem{dreier2024shaken}
 J.~Dreier, P.~Lafourcade, and D.~Mahmoud, ``Shaken, not stirred-automated discovery of subtle attacks on protocols using $\{$Mix-Nets$\}$,'' in \emph{33rd USENIX Security Symposium (USENIX Security 24)}, 2024, pp. 3135--3150.
