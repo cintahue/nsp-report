@@ -21,7 +21,7 @@
 \BIBdecl
 
 \bibitem{chaum1981untraceable}
-D.~L. Chaum, ``Untraceable electronic mail, return addresses, and digital pseudonyms,'' \emph{Communications of the ACM}, vol.~24, no.~2, pp. 84--90, 1981, mix网络的奠基性论文.
+D.~L. Chaum, ``Untraceable electronic mail, return addresses, and digital pseudonyms,'' \emph{Communications of the ACM}, vol.~24, no.~2, pp. 84--90, 1981.
 
 \bibitem{dingledine2004tor}
 R.~Dingledine, N.~Mathewson, and P.~Syverson, ``Tor: The second-generation onion router,'' 2004.
@@ -32,38 +32,23 @@ others, ``{LARMix}: Latency-aware routing in mix networks,'' in \emph{Proceeding
 \bibitem{hugenroth2023powering}
 D.~Hugenroth \emph{et~al.}, ``Powering privacy: On the energy demand and feasibility of anonymity networks on smartphones,'' in \emph{Proceedings of the 32nd USENIX Security Symposium}, 2023, pp. 1--18, 移动端匿名通信.
 
-\bibitem{desilva2024guideenricher}
-D.~De~Silva \emph{et~al.}, ``{GuideEnricher}: Protecting the anonymity of ethereum mixing service users with deep reinforcement learning,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, 区块链混币技术.
-
-\bibitem{holland2024false}
-J.~K. Holland \emph{et~al.}, ``A false sense of privacy: Towards a reliable evaluation methodology for the anonymization of biometric data,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, 匿名性评估方法.
-
-\bibitem{netshaper2024}
-others, ``{NetShaper}: A differentially private network side-channel mitigation system,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, 差分隐私网络侧信道防护.
-
-\bibitem{framework2024onion}
-------, ``A framework for provably secure onion routing against a global adversary,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, 可证明安全的洋葱路由.
-
-\bibitem{sphinx2024}
-------, ``Provable security for the onion routing and mix network packet format sphinx,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, sphinx数据包格式安全性分析.
-
-\bibitem{cho2024rabbitmix}
-C.~Cho \emph{et~al.}, ``Rabbit-mix: Robust algebraic anonymous broadcast from additive bases,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, mix网络最新进展.
-
-\bibitem{betamixing2024}
-others, ``Blending different latency traffic with beta mixing,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, mix网络流量混合策略.
-
 \bibitem{dreier2024shaken}
-J.~Dreier \emph{et~al.}, ``Shaken, not stirred - automated discovery of subtle attacks on protocols using mix-nets,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, mix网络安全分析.
+J.~Dreier, P.~Lafourcade, and D.~Mahmoud, ``Shaken, not stirred-automated discovery of subtle attacks on protocols using $\{$Mix-Nets$\}$,'' in \emph{33rd USENIX Security Symposium (USENIX Security 24)}, 2024, pp. 3135--3150.
 
 \bibitem{chaum1988dining}
-D.~Chaum, ``The dining cryptographers problem: Unconditional sender and recipient untraceability,'' \emph{Journal of Cryptology}, vol.~1, no.~1, pp. 65--75, 1988, dC-Nets原始论文.
+D.~Chaum, ``The dining cryptographers problem: Unconditional sender and recipient untraceability,'' \emph{Journal of cryptology}, vol.~1, no.~1, pp. 65--75, 1988.
 
-\bibitem{mani2018understanding}
-A.~Mani, T.~Wilson-Brown, R.~Jansen, A.~Johnson, and M.~Sherr, ``Understanding tor usage with privacy-preserving measurement,'' in \emph{Proceedings of the Internet Measurement Conference 2018}, 2018, pp. 175--187.
+\bibitem{torspec}
+{The Tor Project}, ``Tor specifications,'' \url{https://spec.torproject.org/index.html}, online; accessed 2026-05-28.
+
+\bibitem{syverson1997anonymous}
+P.~F. Syverson, D.~M. Goldschlag, and M.~G. Reed, ``Anonymous connections and onion routing,'' in \emph{Proceedings. 1997 IEEE Symposium on Security and Privacy (Cat. No. 97CB36097)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 1997, pp. 44--54.
 
 \bibitem{winter2018tor}
 P.~Winter, A.~Edmundson, L.~M. Roberts, A.~Dutkowska-{\.Z}uk, M.~Chetty, and N.~Feamster, ``How do tor users interact with onion services?'' in \emph{27th USENIX Security Symposium (USENIX Security 18)}, 2018, pp. 411--428.
+
+\bibitem{mani2018understanding}
+A.~Mani, T.~Wilson-Brown, R.~Jansen, A.~Johnson, and M.~Sherr, ``Understanding tor usage with privacy-preserving measurement,'' in \emph{Proceedings of the Internet Measurement Conference 2018}, 2018, pp. 175--187.
 
 \bibitem{sirinam2018deep}
 P.~Sirinam, M.~Imani, M.~Juarez, and M.~Wright, ``Deep fingerprinting: Undermining website fingerprinting defenses with deep learning,'' in \emph{Proceedings of the 2018 ACM SIGSAC conference on computer and communications security}, 2018, pp. 1928--1943.
@@ -74,11 +59,8 @@ S.~Bhat, D.~Lu, A.~Kwon, and S.~Devadas, ``Var-cnn: A data-efficient website fin
 \bibitem{rahman2019tik}
 M.~S. Rahman, P.~Sirinam, N.~Mathews, K.~G. Gangadhara, and M.~Wright, ``Tik-tok: The utility of packet timing in website fingerprinting attacks,'' \emph{arXiv preprint arXiv:1902.06421}, 2019.
 
-\bibitem{vilalonga2026obscura}
-A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling ephemeral proxies for traffic encapsulation in webrtc media streams against cost-effective censors,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2026.
-
-\bibitem{shadbeh2026reality}
-M.~Shadbeh, K.~Khajavi, and T.~Wang, ``Reality check for tor website fingerprinting in the open world,'' \emph{arXiv preprint arXiv:2603.07412}, 2026.
+\bibitem{zhao2024towards}
+X.~Zhao, X.~Deng, Q.~Li, Y.~Liu, Z.~Liu, K.~Sun, and K.~Xu, ``Towards fine-grained webpage fingerprinting at scale,'' in \emph{Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security}, 2024, pp. 423--436.
 
 \bibitem{nasr2018deepcorr}
 M.~Nasr, A.~Bahramali, and A.~Houmansadr, ``Deepcorr: Strong flow correlation attacks on tor using deep learning,'' in \emph{Proceedings of the 2018 ACM SIGSAC conference on computer and communications security}, 2018, pp. 1962--1976.
@@ -92,6 +74,15 @@ Y.~Sun, A.~Edmundson, N.~Feamster, M.~Chiang, and P.~Mittal, ``Counter-raptor: S
 \bibitem{gegenhuber2023extended}
 G.~K. Gegenhuber, M.~Maier, F.~Holzbauer, W.~Mayer, G.~Merzdovnik, E.~Weippl, and J.~Ullrich, ``An extended view on measuring tor as-level adversaries,'' \emph{Computers \& Security}, vol. 132, p. 103302, 2023.
 
+\bibitem{lopes2024flow}
+D.~Lopes, J.-D. Dong, P.~Medeiros, D.~Castro, D.~Barradas, B.~Portela, J.~Vinagre, B.~Ferreira, N.~Christin, and N.~Santos, ``Flow correlation attacks on tor onion service sessions with sliding subset sum.'' in \emph{NDSS}, 2024.
+
+\bibitem{jansen2014sniper}
+R.~Jansen, F.~Tschorsch, A.~Johnson, and B.~Scheuermann, ``The sniper attack: Anonymously deanonymizing and disabling the tor network,'' 2014.
+
+\bibitem{jansen2012methodically}
+R.~Jansen, K.~S. Bauer, N.~Hopper, and R.~Dingledine, ``Methodically modeling the tor network.'' in \emph{CSET}, 2012.
+
 \bibitem{sendner2023tormult}
 C.~Sendner, J.~Stang, A.~Dmitrienko, R.~Wijewickrama, and M.~Jadliwala, ``Tormult: introducing a novel tor bandwidth inflation attack,'' \emph{arXiv preprint arXiv:2307.08550}, 2023.
 
@@ -101,7 +92,22 @@ Z.~Luo, J.~Zhang, A.~Neerati, and A.~Kate, ``Five minutes of ddos brings down to
 \bibitem{holland2020regulator}
 J.~K. Holland and N.~Hopper, ``Regulator: A straightforward website fingerprinting defense,'' \emph{arXiv preprint arXiv:2012.06609}, 2020.
 
+\bibitem{holland2023detorrent}
+J.~K. Holland, J.~Carpenter, S.~E. Oh, and N.~Hopper, ``Detorrent: An adversarial padding-only traffic analysis defense,'' \emph{arXiv preprint arXiv:2302.02012}, 2023.
+
 \bibitem{al2023darkhorse}
 M.~W. Al~Azad, H.~Zahan, S.~U. Taki, and S.~Mastorakis, ``Darkhorse: A udp-based framework to improve the latency of tor onion services,'' in \emph{2023 IEEE 48th Conference on Local Computer Networks (LCN)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 1--6.
+
+\bibitem{macmillan2020evaluating}
+K.~MacMillan, J.~Holland, and P.~Mittal, ``Evaluating snowflake as an indistinguishable censorship circumvention tool,'' \emph{arXiv preprint arXiv:2008.03254}, 2020.
+
+\bibitem{sun2024differential}
+Z.~Sun and V.~Shmatikov, ``Differential degradation vulnerabilities in censorship circumvention systems,'' \emph{arXiv preprint arXiv:2409.06247}, 2024.
+
+\bibitem{vilalonga2026obscura}
+A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling ephemeral proxies for traffic encapsulation in webrtc media streams against cost-effective censors,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2026.
+
+\bibitem{shadbeh2026reality}
+M.~Shadbeh, K.~Khajavi, and T.~Wang, ``Reality check for tor website fingerprinting in the open world,'' \emph{arXiv preprint arXiv:2603.07412}, 2026.
 
 \end{thebibliography}

@@ -143,216 +143,182 @@
   year={2026}
 }
 
+@inproceedings{jansen2012methodically,
+  title={Methodically Modeling the Tor Network.},
+  author={Jansen, Rob and Bauer, Kevin S and Hopper, Nicholas and Dingledine, Roger},
+  booktitle={CSET},
+  year={2012}
+}
+
+@article{jansen2014sniper,
+  title={The sniper attack: Anonymously deanonymizing and disabling the Tor network},
+  author={Jansen, Rob and Tschorsch, Florian and Johnson, Aaron and Scheuermann, Bj{\"o}rn},
+  year={2014}
+}
+
+@inproceedings{lopes2024flow,
+  title={Flow Correlation Attacks on Tor Onion Service Sessions with Sliding Subset Sum.},
+  author={Lopes, Daniela and Dong, Jin-Dong and Medeiros, Pedro and Castro, Daniel and Barradas, Diogo and Portela, Bernardo and Vinagre, Joao and Ferreira, Bernardo and Christin, Nicolas and Santos, Nuno},
+  booktitle={NDSS},
+  year={2024}
+}
+
+@inproceedings{syverson1997anonymous,
+  title={Anonymous connections and onion routing},
+  author={Syverson, Paul F and Goldschlag, David M and Reed, Michael G},
+  booktitle={Proceedings. 1997 IEEE Symposium on Security and Privacy (Cat. No. 97CB36097)},
+  pages={44--54},
+  year={1997},
+  organization={IEEE}
+}
+
+@misc{torspec,
+  title        = {Tor Specifications},
+  author       = {{The Tor Project}},
+  howpublished = {\url{https://spec.torproject.org/index.html}},
+  note         = {Online; accessed 2026-05-28}
+}
+
+
 % ============================================
-% 第2章：匿名网络技术基础 - 经典文献
+% 第1、2章
 % ============================================
 
 @article{chaum1981untraceable,
-  title   = {Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms},
-  author  = {Chaum, David L.},
-  journal = {Communications of the ACM},
-  volume  = {24},
-  number  = {2},
-  pages   = {84--90},
-  year    = {1981},
-  note    = {Mix网络的奠基性论文}
+  title={Untraceable electronic mail, return addresses, and digital pseudonyms},
+  author={Chaum, David L},
+  journal={Communications of the ACM},
+  volume={24},
+  number={2},
+  pages={84--90},
+  year={1981},
+  publisher={ACM New York, NY, USA}
 }
 
 @article{chaum1988dining,
-  title   = {The Dining Cryptographers Problem: Unconditional Sender and Recipient Untraceability},
-  author  = {Chaum, David},
-  journal = {Journal of Cryptology},
-  volume  = {1},
-  number  = {1},
-  pages   = {65--75},
-  year    = {1988},
-  note    = {DC-Nets原始论文}
+  title={The dining cryptographers problem: Unconditional sender and recipient untraceability},
+  author={Chaum, David},
+  journal={Journal of cryptology},
+  volume={1},
+  number={1},
+  pages={65--75},
+  year={1988},
+  publisher={Springer}
 }
 
-% ============================================
-% USENIX Security (CCF A)
-% ============================================
-
-@inproceedings{cho2024rabbitmix,
-  title     = {Rabbit-Mix: Robust Algebraic Anonymous Broadcast from Additive Bases},
-  author    = {Cho, Chongwon and others},
-  booktitle = {Proceedings of the 33rd USENIX Security Symposium},
-  year      = {2024},
-  note      = {Mix网络最新进展}
+@inproceedings{cho2024rabbit,
+  title={$\{$Rabbit-Mix$\}$: Robust Algebraic Anonymous Broadcast from Additive Bases},
+  author={Cho, Chongwon and Dittmer, Samuel and Ishai, Yuval and Lu, Steve and Ostrovsky, Rafail},
+  booktitle={33rd USENIX Security Symposium (USENIX Security 24)},
+  pages={3151--3168},
+  year={2024}
 }
 
 @inproceedings{dreier2024shaken,
-  title     = {Shaken, not Stirred - Automated Discovery of Subtle Attacks on Protocols using Mix-Nets},
-  author    = {Dreier, Jannik and others},
-  booktitle = {Proceedings of the 33rd USENIX Security Symposium},
-  year      = {2024},
-  note      = {Mix网络安全分析}
-}
-
-@inproceedings{desilva2024guideenricher,
-  title     = {{GuideEnricher}: Protecting the Anonymity of Ethereum Mixing Service Users with Deep Reinforcement Learning},
-  author    = {De Silva, Dilum and others},
-  booktitle = {Proceedings of the 33rd USENIX Security Symposium},
-  year      = {2024},
-  note      = {区块链混币技术}
+  title={Shaken, not Stirred-Automated Discovery of Subtle Attacks on Protocols using $\{$Mix-Nets$\}$},
+  author={Dreier, Jannik and Lafourcade, Pascal and Mahmoud, Dhekra},
+  booktitle={33rd USENIX Security Symposium (USENIX Security 24)},
+  pages={3135--3150},
+  year={2024}
 }
 
 @inproceedings{hugenroth2023powering,
-  title     = {Powering Privacy: On the Energy Demand and Feasibility of Anonymity Networks on Smartphones},
-  author    = {Hugenroth, Daniel and others},
-  booktitle = {Proceedings of the 32nd USENIX Security Symposium},
-  pages     = {1--18},
-  year      = {2023},
-  note      = {移动端匿名通信}
+  title={Powering privacy: On the energy demand and feasibility of anonymity networks on smartphones},
+  author={Hugenroth, Daniel and Beresford, Alastair R},
+  booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
+  pages={5431--5448},
+  year={2023}
 }
 
-% ============================================
-% NDSS (CCF A)
-% ============================================
-
-@inproceedings{larmix2023,
-  title     = {{LARMix}: Latency-Aware Routing in Mix Networks},
-  author    = {others},
-  booktitle = {Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)},
-  year      = {2023},
-  note      = {Mix网络延迟优化}
+@inproceedings{rahimi2024larmix,
+  title={LARMix: Latency-Aware Routing in Mix Networks.},
+  author={Rahimi, Mahdi and Sharma, Piyush Kumar and Diaz, Claudia},
+  booktitle={NDSS},
+  year={2024}
 }
 
-@inproceedings{gyges2023,
-  title     = {Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle},
-  author    = {others},
-  booktitle = {Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)},
-  year      = {2023},
-  note      = {匿名广播系统}
+@inproceedings{dong2025ring,
+  title={Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle.},
+  author={Dong, Wentao and Jiang, Peipei and Duan, Huayi and Wang, Cong and Zhao, Lingchen and Wang, Qian},
+  booktitle={NDSS},
+  year={2025}
 }
 
-@inproceedings{cryptocurrency2023anonymity,
-  title     = {On the Anonymity of Peer-To-Peer Network Anonymity Schemes Used by Cryptocurrencies},
-  author    = {others},
-  booktitle = {Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)},
-  year      = {2023},
-  note      = {区块链P2P匿名性}
-}
 
-% ============================================
-% PETS/PoPETs (CCF B)
-% ============================================
-
-@article{blanton2024detorrent,
-  title   = {{DeTorrent}: An Adversarial Padding-only Traffic Analysis Defense},
-  author  = {Blanton, Marina and Murphy, Dennis and Yuan, Chen},
-  journal = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  volume  = {2024},
-  year    = {2024},
-  note    = {Tor防御技术}
-}
-
-@article{holland2024false,
-  title   = {A False Sense of Privacy: Towards a Reliable Evaluation Methodology for the Anonymization of Biometric Data},
-  author  = {Holland, James K. and others},
-  journal = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  volume  = {2024},
-  year    = {2024},
-  note    = {匿名性评估方法}
-}
-
-% ============================================
-% NDSS 2024 (CCF A) - 新增
-% ============================================
-
-@inproceedings{lopes2024sumo,
-  title     = {Flow Correlation Attacks on {Tor} Onion Service Sessions with Sliding Subset Sum},
-  author    = {Lopes, Daniela and Dong, Jin-Dong and Medeiros, Pedro and Castro, Daniel and Barradas, Diogo and Portela, Bernardo and Vinagre, Jo{\~a}o and Ferreira, Bernardo and Christin, Nicolas and Santos, Nuno},
-  booktitle = {Proceedings of the 2024 Network and Distributed System Security Symposium (NDSS)},
-  year      = {2024},
-  note      = {Tor隐藏服务流关联攻击}
+@article{holland2023detorrent,
+  title={Detorrent: An adversarial padding-only traffic analysis defense},
+  author={Holland, James K and Carpenter, Jason and Oh, Se Eun and Hopper, Nicholas},
+  journal={arXiv preprint arXiv:2302.02012},
+  year={2023}
 }
 
 @inproceedings{sendner2024mirageflow,
-  title     = {{MirageFlow}: A New Bandwidth Inflation Attack on {Tor}},
-  author    = {Sendner, Christoph and Stang, Jasper and Dmitrienko, Alexandra and Wijewickrama, Raveen and Jadliwala, Murtuza},
-  booktitle = {Proceedings of the 2024 Network and Distributed System Security Symposium (NDSS)},
-  year      = {2024},
-  note      = {Tor带宽膨胀攻击}
+  title={MirageFlow: A New Bandwidth Inflation Attack on Tor.},
+  author={Sendner, Christoph and Stang, Jasper and Dmitrienko, Alexandra and Wijewickrama, Raveen and Jadliwala, Murtuza},
+  booktitle={NDSS},
+  year={2024}
 }
 
-@inproceedings{wails2024censorship,
-  title     = {On Precisely Detecting Censorship Circumvention in Real-World Networks},
-  author    = {Wails, Ryan and Sullivan, George Arnold and Sherr, Micah and Jansen, Rob},
-  booktitle = {Proceedings of the 2024 Network and Distributed System Security Symposium (NDSS)},
-  year      = {2024},
-  note      = {审查规避工具检测}
+
+@article{scherer2024framework,
+  title={A framework for provably secure onion routing against a global adversary},
+  author={Scherer, Philip and Weis, Christiane and Strufe, Thorsten},
+  journal={Proceedings on Privacy Enhancing Technologies},
+  year={2024}
 }
 
-% ============================================
-% PoPETs 2024 (CCF B) - 新增
-% ============================================
-
-@article{flowmatching2024,
-  title   = {Flow Matching for Mixnet Traffic},
-  author  = {others},
-  journal = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  volume  = {2024},
-  year    = {2024},
-  note    = {Mix网络流量分析}
+@article{scherer2023provable,
+  title={Provable security for the onion routing and mix network packet format sphinx},
+  author={Scherer, Philip and Weis, Christiane and Strufe, Thorsten},
+  journal={arXiv preprint arXiv:2312.08028},
+  year={2023}
 }
 
-@article{betamixing2024,
-  title   = {Blending Different Latency Traffic With Beta Mixing},
-  author  = {others},
-  journal = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  volume  = {2024},
-  year    = {2024},
-  note    = {Mix网络流量混合策略}
+@article{tippe2024onion,
+  title={Onion services in the wild: A study of deanonymization attacks},
+  author={Tippe, Pascal and Tippe, Adrian},
+  journal={Proceedings on Privacy Enhancing Technologies},
+  year={2024}
 }
 
-@article{framework2024onion,
-  title   = {A Framework for Provably Secure Onion Routing against a Global Adversary},
-  author  = {others},
-  journal = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  volume  = {2024},
-  year    = {2024},
-  note    = {可证明安全的洋葱路由}
+@inproceedings{sabzi2024netshaper,
+  title={$\{$NetShaper$\}$: A Differentially Private Network $\{$Side-Channel$\}$ Mitigation System},
+  author={Sabzi, Amir and Vora, Rut and Goswami, Swati and Seltzer, Margo and L{\'e}cuyer, Mathias and Mehta, Aastha},
+  booktitle={33rd USENIX Security Symposium (USENIX Security 24)},
+  pages={3385--3402},
+  year={2024}
 }
-
-@article{sphinx2024,
-  title   = {Provable Security for the Onion Routing and Mix Network Packet Format Sphinx},
-  author  = {others},
-  journal = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  volume  = {2024},
-  year    = {2024},
-  note    = {Sphinx数据包格式安全性分析}
-}
-
-@article{onionservices2024,
-  title   = {Onion Services in the Wild},
-  author  = {others},
-  journal = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
-  volume  = {2024},
-  year    = {2024},
-  note    = {Tor洋葱服务实证研究}
-}
-
-% ============================================
-% USENIX Security 2024 (CCF A) - 新增
-% ============================================
-
-@inproceedings{netshaper2024,
-  title     = {{NetShaper}: A Differentially Private Network Side-Channel Mitigation System},
-  author    = {others},
-  booktitle = {Proceedings of the 33rd USENIX Security Symposium},
-  year      = {2024},
-  note      = {差分隐私网络侧信道防护}
-}
-
-% ============================================
-% USENIX Security 2023 (CCF A) - 新增
-% ============================================
 
 @inproceedings{shen2023subverting,
-  title     = {Subverting Website Fingerprinting Defenses with Robust Traffic Representation},
-  author    = {Shen, Meng and others},
-  booktitle = {Proceedings of the 32nd USENIX Security Symposium},
-  year      = {2023},
-  note      = {绕过WF防御的鲁棒流量表示}
+  title={Subverting website fingerprinting defenses with robust traffic representation},
+  author={Shen, Meng and Ji, Kexin and Gao, Zhenbo and Li, Qi and Zhu, Liehuang and Xu, Ke},
+  booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
+  pages={607--624},
+  year={2023}
+}
+
+@inproceedings{mitseva2024stop,
+  title={Stop, don't click here anymore: boosting website fingerprinting by considering sets of subpages},
+  author={Mitseva, Asya and Panchenko, Andriy},
+  booktitle={33rd USENIX Security Symposium (USENIX Security 24)},
+  pages={4139--4156},
+  year={2024}
+}
+
+@inproceedings{jansen2026measurement,
+  title={A measurement of genuine tor traces for realistic website fingerprinting},
+  author={Jansen, Rob and Wails, Ryan and Johnson, Aaron},
+  booktitle={International Conference on Passive and Active Network Measurement},
+  pages={277--293},
+  year={2026},
+  organization={Springer}
+}
+
+@inproceedings{kocaougullar2024pudding,
+  title={Pudding: Private user discovery in anonymity networks},
+  author={Kocao{\u{g}}ullar, Ceren and Hugenroth, Daniel and Kleppmann, Martin and Beresford, Alastair R},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)},
+  pages={3203--3220},
+  year={2024},
+  organization={IEEE}
 }
