@@ -14,45 +14,45 @@ Database file #1: references.bib
 Warning--empty journal in dingledine2004tor
 
 Done.
-You've used 26 entries,
+You've used 28 entries,
             4087 wiz_defined-function locations,
-            952 strings with 12346 characters,
-and the built_in function-call counts, 17115 in all, are:
-= -- 1328
-> -- 427
-< -- 92
-+ -- 223
-- -- 84
-* -- 794
-:= -- 2616
-add.period$ -- 54
-call.type$ -- 26
-change.case$ -- 36
+            958 strings with 12572 characters,
+and the built_in function-call counts, 17974 in all, are:
+= -- 1418
+> -- 435
+< -- 95
++ -- 227
+- -- 86
+* -- 833
+:= -- 2798
+add.period$ -- 58
+call.type$ -- 28
+change.case$ -- 40
 chr.to.int$ -- 225
-cite$ -- 27
-duplicate$ -- 1308
-empty$ -- 1534
-format.name$ -- 105
-if$ -- 3995
+cite$ -- 29
+duplicate$ -- 1385
+empty$ -- 1590
+format.name$ -- 107
+if$ -- 4180
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 243
-newline$ -- 101
-num.names$ -- 26
-pop$ -- 609
+int.to.str$ -- 28
+missing$ -- 256
+newline$ -- 107
+num.names$ -- 28
+pop$ -- 626
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1334
+skip$ -- 1405
 stack$ -- 0
-substring$ -- 582
-swap$ -- 917
-text.length$ -- 17
+substring$ -- 588
+swap$ -- 969
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 26
+type$ -- 28
 warning$ -- 1
-while$ -- 67
-width$ -- 28
-write$ -- 256
+while$ -- 69
+width$ -- 30
+write$ -- 277
 (There was 1 warning)

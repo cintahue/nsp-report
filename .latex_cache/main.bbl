@@ -29,29 +29,35 @@ R.~Dingledine, N.~Mathewson, and P.~Syverson, ``Tor: The second-generation onion
 \bibitem{larmix2023}
 others, ``{LARMix}: Latency-aware routing in mix networks,'' in \emph{Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)}, 2023, mix网络延迟优化.
 
-\bibitem{cho2024rabbitmix}
-C.~Cho \emph{et~al.}, ``Rabbit-mix: Robust algebraic anonymous broadcast from additive bases,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, mix网络最新进展.
-
 \bibitem{hugenroth2023powering}
 D.~Hugenroth \emph{et~al.}, ``Powering privacy: On the energy demand and feasibility of anonymity networks on smartphones,'' in \emph{Proceedings of the 32nd USENIX Security Symposium}, 2023, pp. 1--18, 移动端匿名通信.
 
 \bibitem{desilva2024guideenricher}
 D.~De~Silva \emph{et~al.}, ``{GuideEnricher}: Protecting the anonymity of ethereum mixing service users with deep reinforcement learning,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, 区块链混币技术.
 
+\bibitem{holland2024false}
+J.~K. Holland \emph{et~al.}, ``A false sense of privacy: Towards a reliable evaluation methodology for the anonymization of biometric data,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, 匿名性评估方法.
+
+\bibitem{netshaper2024}
+others, ``{NetShaper}: A differentially private network side-channel mitigation system,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, 差分隐私网络侧信道防护.
+
+\bibitem{framework2024onion}
+------, ``A framework for provably secure onion routing against a global adversary,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, 可证明安全的洋葱路由.
+
+\bibitem{sphinx2024}
+------, ``Provable security for the onion routing and mix network packet format sphinx,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, sphinx数据包格式安全性分析.
+
+\bibitem{cho2024rabbitmix}
+C.~Cho \emph{et~al.}, ``Rabbit-mix: Robust algebraic anonymous broadcast from additive bases,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, mix网络最新进展.
+
+\bibitem{betamixing2024}
+others, ``Blending different latency traffic with beta mixing,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, mix网络流量混合策略.
+
 \bibitem{dreier2024shaken}
 J.~Dreier \emph{et~al.}, ``Shaken, not stirred - automated discovery of subtle attacks on protocols using mix-nets,'' in \emph{Proceedings of the 33rd USENIX Security Symposium}, 2024, mix网络安全分析.
 
 \bibitem{chaum1988dining}
 D.~Chaum, ``The dining cryptographers problem: Unconditional sender and recipient untraceability,'' \emph{Journal of Cryptology}, vol.~1, no.~1, pp. 65--75, 1988, dC-Nets原始论文.
-
-\bibitem{gyges2023}
-others, ``Ring of gyges: Accountable anonymous broadcast via secret-shared shuffle,'' in \emph{Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)}, 2023, 匿名广播系统.
-
-\bibitem{holland2024false}
-J.~K. Holland \emph{et~al.}, ``A false sense of privacy: Towards a reliable evaluation methodology for the anonymization of biometric data,'' \emph{Proceedings on Privacy Enhancing Technologies (PoPETs)}, vol. 2024, 2024, 匿名性评估方法.
-
-\bibitem{cryptocurrency2023anonymity}
-others, ``On the anonymity of peer-to-peer network anonymity schemes used by cryptocurrencies,'' in \emph{Proceedings of the 2023 Network and Distributed System Security Symposium (NDSS)}, 2023, 区块链P2P匿名性.
 
 \bibitem{mani2018understanding}
 A.~Mani, T.~Wilson-Brown, R.~Jansen, A.~Johnson, and M.~Sherr, ``Understanding tor usage with privacy-preserving measurement,'' in \emph{Proceedings of the Internet Measurement Conference 2018}, 2018, pp. 175--187.
