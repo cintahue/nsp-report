@@ -18,32 +18,137 @@
 }
 
 % 重定义 \maketitle，使大标题、作者、日期均为五号字
+% ===== 封面信息默认值，具体内容在 main.tex 中覆盖 =====
+\providecommand{\reportcourse}{网络安全协议}
+\providecommand{\reporttype}{网络安全协议大作业}
+\providecommand{\reporttopic}{匿名网络、Tor 网络、僵尸网络}
+\providecommand{\reportauthorA}{梁峻玮}
+\providecommand{\reportauthorB}{田丰睿}
+\providecommand{\reportauthorC}{李青宇}
+\providecommand{\reportidA}{PB23071341}
+\providecommand{\reportidB}{PB23071318}
+\providecommand{\reportidC}{PB23071316}
+
+% ===== 封面信息默认值，具体内容在 main.tex 中覆盖 =====
+\providecommand{\reportcourse}{网络安全协议}
+\providecommand{\reporttype}{网络安全协议大作业}
+\providecommand{\reporttopic}{匿名网络、Tor 网络、僵尸网络}
+\providecommand{\reportauthorA}{梁峻玮}
+\providecommand{\reportauthorB}{田丰睿}
+\providecommand{\reportauthorC}{李青宇}
+\providecommand{\reportidA}{PB23071341}
+\providecommand{\reportidB}{PB23071318}
+\providecommand{\reportidC}{PB23071316}
+
+% 三个作者/学号同宽对齐
+\newcommand{\covertriple}[3]{%
+  \makebox[0.17\textwidth][c]{#1}%
+  \makebox[0.17\textwidth][c]{#2}%
+  \makebox[0.17\textwidth][c]{#3}%
+}
+
+% 三个作者/学号同宽对齐
+\newcommand{\covertriple}[3]{%
+  \makebox[0.17\textwidth][c]{#1}%
+  \makebox[0.17\textwidth][c]{#2}%
+  \makebox[0.17\textwidth][c]{#3}%
+}
+
+% 带横线的三人信息栏
+\newcommand{\covertripleline}[3]{%
+  \underline{\makebox[0.17\textwidth][c]{#1}}%
+  \hspace{0.02\textwidth}%
+  \underline{\makebox[0.17\textwidth][c]{#2}}%
+  \hspace{0.02\textwidth}%
+  \underline{\makebox[0.17\textwidth][c]{#3}}%
+}
+
+% ===== 仿 USTC 报告封面 =====
 \makeatletter
-\renewcommand{\maketitle}{%
-  \begin{center}%
-    {\heiti\bfseries\zihao{5} \@title \par}%
-    \vskip 2em%
-    {\zihao{5} \@author \par}%
-    \vskip 1.5em%
-    {\zihao{5} \@date \par}%
-  \end{center}%
-  \vskip 2em%
+\newcommand{\makecover}{%
+  \begin{titlepage}
+    \thispagestyle{empty}
+    \centering
+
+    \vspace*{1.1cm}
+
+    % 顶部校名图片
+    \includegraphics[width=0.42\textwidth]{figures/ustc_logo_text.pdf}\par
+
+    \vspace{0.85cm}
+
+    % 大作业类型
+    {\heiti\bfseries\zihao{-0} \reporttype\par}
+
+    \vspace{1.45cm}
+
+    % 校徽
+    \IfFileExists{figures/ustc_logo.png}{%
+      \includegraphics[width=0.25\textwidth]{figures/ustc_logo.png}\par
+    }{%
+      \IfFileExists{figures/ustc_logo.pdf}{%
+        \includegraphics[width=0.25\textwidth]{figures/ustc_logo.pdf}\par
+      }{}
+    }
+
+    % 删除中部“中国科学技术大学”后，直接进入信息区
+    \vspace{1.9cm}
+
+    % 信息区整体上移，不再使用 \vfill
+    {\zihao{4}
+    \begin{tabular}{@{}r@{\hspace{1.2em}}l@{}}
+      \heiti 选\hspace{2em}题： &
+      \underline{\makebox[0.56\textwidth][l]{\reporttopic}} \\[1.75em]
+
+      \heiti 报告题目： &
+      \parbox[t]{0.56\textwidth}{
+        \underline{\makebox[0.56\textwidth][l]{匿名网络中的流量分析与滥用检测研究综述：}}\\[0.45em]
+        \underline{\makebox[0.56\textwidth][l]{从 Tor 网络到匿名化僵尸网络}}
+      } \\[2.15em]
+
+      \heiti 作者姓名： &
+      \covertripleline{\reportauthorA}{\reportauthorB}{\reportauthorC} \\[1.75em]
+
+      \heiti 学\hspace{2em}号： &
+      \covertripleline{\reportidA}{\reportidB}{\reportidC} \\[1.75em]
+
+      \heiti 完成时间： &
+      \underline{\makebox[0.56\textwidth][l]{\@date}} \\
+    \end{tabular}
+    }
+
+    \vspace*{1.2cm}
+
+  \end{titlepage}
 }
 \makeatother
 
-% 摘要标题格式：黑体加粗，五号字
-\renewcommand{\abstractname}{\heiti\bfseries\zihao{5} 摘要}
+% ===== 摘要标题：标题字号放宽，摘要正文仍保持五号字 =====
+\renewcommand{\abstractname}{\heiti\bfseries\zihao{3} 摘要}
 
-% 重定义 abstract 环境，使摘要正文也为五号字（默认是 \small，会偏小）
 \makeatletter
 \renewenvironment{abstract}{%
   \begin{center}%
-    {\abstractname\vspace{-.5em}\vspace{\z@}}%
+    {\abstractname}%
   \end{center}%
+  \vspace{1em}
   \zihao{5}%
   \quotation
 }{%
   \endquotation
+}
+\makeatother
+
+% ===== 自定义目录页：目录标题居中，标题字号放宽 =====
+\makeatletter
+\newcommand{\maketocpage}{%
+  \clearpage
+  \begin{center}
+    {\heiti\bfseries\zihao{3} 目录}
+  \end{center}
+  \vspace{1em}
+  \@starttoc{toc}
+  \clearpage
 }
 \makeatother
 

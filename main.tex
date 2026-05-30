@@ -2,18 +2,40 @@
 \input{config}
 
 \title{匿名网络中的流量分析与滥用检测研究：从 Tor 网络到匿名化僵尸网络}
-\author{%
-\begin{tabular}{ccc}
-梁峻玮 & 田丰睿 & 李青宇 \\
-PB23071341 & PB23071318 & PB23071316
-\end{tabular}%
-}
-% \date{}
+
+\renewcommand{\reportcourse}{网络安全协议}
+\renewcommand{\reporttype}{网络安全协议大作业}
+\renewcommand{\reporttopic}{匿名网络、Tor 网络、僵尸网络}
+
+\renewcommand{\reportauthorA}{梁峻玮}
+\renewcommand{\reportauthorB}{田丰睿}
+\renewcommand{\reportauthorC}{李青宇}
+
+\renewcommand{\reportidA}{PB23071341}
+\renewcommand{\reportidB}{PB23071318}
+\renewcommand{\reportidC}{PB23071316}
+
+\date{2026 年 5 月 30 日}
 
 \begin{document}
-\maketitle
 
+% 第 1 页：封面
+\makecover
+
+% 第 2 页：摘要
+\clearpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
 \input{abstract}
+
+% 第 3 页：目录
+\maketocpage
+
+% 第 4 页起：正文
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
 \input{introduction}
 \input{anonymous}
 \input{tor}
