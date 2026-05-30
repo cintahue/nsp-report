@@ -146,12 +146,6 @@ Z.~Sun and V.~Shmatikov, ``Differential degradation vulnerabilities in censorshi
 \bibitem{vilalonga2026obscura}
 A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling ephemeral proxies for traffic encapsulation in webrtc media streams against cost-effective censors,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2026.
 
-\bibitem{shadbeh2026reality}
-M.~Shadbeh, K.~Khajavi, and T.~Wang, ``Reality check for tor website fingerprinting in the open world,'' \emph{arXiv preprint arXiv:2603.07412}, 2026.
-
-\bibitem{sendner2023tormult}
-C.~Sendner, J.~Stang, A.~Dmitrienko, R.~Wijewickrama, and M.~Jadliwala, ``Tormult: introducing a novel tor bandwidth inflation attack,'' \emph{arXiv preprint arXiv:2307.08550}, 2023.
-
 \bibitem{casenove2014botnet}
 M.~Casenove and A.~Miraglia, ``Botnet over tor: The illusion of hiding,'' in \emph{2014 6th International Conference on Cyber Conflict}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014.
 

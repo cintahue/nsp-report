@@ -15,45 +15,45 @@ Warning--empty journal in dingledine2004tor
 Warning--empty journal in jansen2014sniper
 
 Done.
-You've used 63 entries,
+You've used 61 entries,
             4087 wiz_defined-function locations,
-            1106 strings with 19206 characters,
-and the built_in function-call counts, 39798 in all, are:
-= -- 3005
-> -- 1092
+            1099 strings with 18928 characters,
+and the built_in function-call counts, 38874 in all, are:
+= -- 2937
+> -- 1058
 < -- 201
-+ -- 562
-- -- 219
-* -- 1786
-:= -- 5948
-add.period$ -- 132
-call.type$ -- 63
-change.case$ -- 64
++ -- 546
+- -- 211
+* -- 1744
+:= -- 5792
+add.period$ -- 128
+call.type$ -- 61
+change.case$ -- 62
 chr.to.int$ -- 492
-cite$ -- 65
-duplicate$ -- 3067
-empty$ -- 3620
-format.name$ -- 272
-if$ -- 9336
+cite$ -- 63
+duplicate$ -- 2987
+empty$ -- 3538
+format.name$ -- 262
+if$ -- 9128
 int.to.chr$ -- 0
-int.to.str$ -- 63
-missing$ -- 581
-newline$ -- 212
-num.names$ -- 63
-pop$ -- 1555
+int.to.str$ -- 61
+missing$ -- 565
+newline$ -- 206
+num.names$ -- 61
+pop$ -- 1509
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3120
+skip$ -- 3052
 stack$ -- 0
-substring$ -- 1261
-swap$ -- 2135
+substring$ -- 1259
+swap$ -- 2089
 text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 63
+type$ -- 61
 warning$ -- 2
-while$ -- 148
-width$ -- 65
-write$ -- 561
+while$ -- 146
+width$ -- 63
+write$ -- 545
 (There were 2 warnings)
