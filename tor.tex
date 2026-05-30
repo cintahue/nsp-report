@@ -1,6 +1,6 @@
 \section{Tor网络攻防技术}
 
-Tor（The Onion Router）是当前部署规模最大、研究最充分的低时延匿名通信系统（low-latency anonymous communication system）之一。自第二代洋葱路由系统被提出以来，Tor逐步形成了由客户端（Client）、志愿者中继（Relay）、目录基础设施（Directory Infrastructure）、出口策略（Exit Policy）、洋葱服务（Onion Service，旧称Hidden Service）与可插拔传输（Pluggable Transport）共同构成的复杂匿名通信生态\cite{dingledine2004tor,torspec}。从安全研究视角看，Tor并非单一密码协议，而是一个同时受到密码学设计、互联网路由、流量统计学习、系统资源管理与审查对抗共同影响的大规模网络系统。因此，围绕Tor的攻防研究也呈现出明显的多层化特征：攻击侧从早期的节点控制与流量关联，发展到深度学习网站指纹、自治系统/边界网关协议级观测（AS/BGP-level observation）、洋葱服务会话关联、带宽膨胀和目录共识破坏；防御侧则从链路层协议加固、守卫节点策略和目录共识机制，扩展到流量填充、路由感知路径选择、隐私保护测量、抗审查传输和面向洋葱服务的性能优化。本节按照``架构基础--攻击演进--防御对抗--态势分析''的逻辑，对Tor网络攻防技术进行系统化梳理，并为后续讨论匿名网络与僵尸网络隐匿通信之间的关系提供技术基础。
+Tor（The Onion Router）是匿名网络核心矛盾最具代表性的系统实现之一，也是当前部署规模最大、研究最充分的低时延匿名通信系统（low-latencyanonymous communication system）之一。自第二代洋葱路由系统被提出以来，Tor 逐步形成了由客户端（Client）、志愿者中继（Relay）、目录基础设施（Directory Infrastructure）、出口策略（Exit Policy）、洋葱服务（Onion Service，旧称 Hidden Service）与可插拔传输（Pluggable Transport）共同构成的复杂匿名通信生态\cite{dingledine2004tor,torspec}。从安全研究视角看，Tor 并非单一密码协议，而是一个同时受到密码学设计、互联网路由、流量统计学习、系统资源管理与审查对抗共同影响的大规模网络系统。因此，围绕 Tor 的攻防研究也呈现出明显的多层化特征：攻击侧从早期的节点控制与流量关联，发展到深度学习网站指纹、自治系统/边界网关协议级观测（AS/BGP-level observation）、洋葱服务会话关联、带宽膨胀和目录共识破坏；防御侧则从链路层协议加固、守卫节点策略和目录共识机制，扩展到流量填充、路由感知路径选择、隐私保护测量、抗审查传输和面向洋葱服务的性能优化。本节按照 “架构基础–攻击演进–防御对抗–态势分析” 的逻辑，对 Tor 网络攻防技术进行系统化梳理，并为后续讨论匿名网络与僵尸网络隐匿通信之间的关系提供技术基础。
 
 \subsection{Tor网络架构}
 
