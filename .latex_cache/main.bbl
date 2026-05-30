@@ -137,9 +137,6 @@ J.~K. Holland and N.~Hopper, ``Regulator: A straightforward website fingerprinti
 \bibitem{al2023darkhorse}
 M.~W. Al~Azad, H.~Zahan, S.~U. Taki, and S.~Mastorakis, ``Darkhorse: A udp-based framework to improve the latency of tor onion services,'' in \emph{2023 IEEE 48th Conference on Local Computer Networks (LCN)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 1--6.
 
-\bibitem{sendner2023tormult}
-C.~Sendner, J.~Stang, A.~Dmitrienko, R.~Wijewickrama, and M.~Jadliwala, ``Tormult: introducing a novel tor bandwidth inflation attack,'' \emph{arXiv preprint arXiv:2307.08550}, 2023.
-
 \bibitem{macmillan2020evaluating}
 K.~MacMillan, J.~Holland, and P.~Mittal, ``Evaluating snowflake as an indistinguishable censorship circumvention tool,'' \emph{arXiv preprint arXiv:2008.03254}, 2020.
 
@@ -151,6 +148,9 @@ A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling 
 
 \bibitem{shadbeh2026reality}
 M.~Shadbeh, K.~Khajavi, and T.~Wang, ``Reality check for tor website fingerprinting in the open world,'' \emph{arXiv preprint arXiv:2603.07412}, 2026.
+
+\bibitem{sendner2023tormult}
+C.~Sendner, J.~Stang, A.~Dmitrienko, R.~Wijewickrama, and M.~Jadliwala, ``Tormult: introducing a novel tor bandwidth inflation attack,'' \emph{arXiv preprint arXiv:2307.08550}, 2023.
 
 \bibitem{casenove2014botnet}
 M.~Casenove and A.~Miraglia, ``Botnet over tor: The illusion of hiding,'' in \emph{2014 6th International Conference on Cyber Conflict}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014.
