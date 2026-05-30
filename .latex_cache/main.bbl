@@ -95,11 +95,14 @@ A.~Mani, T.~Wilson-Brown, R.~Jansen, A.~Johnson, and M.~Sherr, ``Understanding t
 \bibitem{sirinam2018deep}
 P.~Sirinam, M.~Imani, M.~Juarez, and M.~Wright, ``Deep fingerprinting: Undermining website fingerprinting defenses with deep learning,'' in \emph{Proceedings of the 2018 ACM SIGSAC conference on computer and communications security}, 2018, pp. 1928--1943.
 
+\bibitem{rahman2019tik}
+M.~S. Rahman, P.~Sirinam, N.~Mathews, K.~G. Gangadhara, and M.~Wright, ``Tik-tok: The utility of packet timing in website fingerprinting attacks,'' \emph{arXiv preprint arXiv:1902.06421}, 2019.
+
 \bibitem{bhat2018var}
 S.~Bhat, D.~Lu, A.~Kwon, and S.~Devadas, ``Var-cnn: A data-efficient website fingerprinting attack based on deep learning,'' \emph{arXiv preprint arXiv:1802.10215}, 2018.
 
-\bibitem{rahman2019tik}
-M.~S. Rahman, P.~Sirinam, N.~Mathews, K.~G. Gangadhara, and M.~Wright, ``Tik-tok: The utility of packet timing in website fingerprinting attacks,'' \emph{arXiv preprint arXiv:1902.06421}, 2019.
+\bibitem{mitseva2024stop}
+A.~Mitseva and A.~Panchenko, ``Stop, don't click here anymore: boosting website fingerprinting by considering sets of subpages,'' in \emph{33rd USENIX Security Symposium (USENIX Security 24)}, 2024, pp. 4139--4156.
 
 \bibitem{nasr2018deepcorr}
 M.~Nasr, A.~Bahramali, and A.~Houmansadr, ``Deepcorr: Strong flow correlation attacks on tor using deep learning,'' in \emph{Proceedings of the 2018 ACM SIGSAC conference on computer and communications security}, 2018, pp. 1962--1976.
@@ -122,8 +125,8 @@ R.~Jansen, F.~Tschorsch, A.~Johnson, and B.~Scheuermann, ``The sniper attack: An
 \bibitem{jansen2012methodically}
 R.~Jansen, K.~S. Bauer, N.~Hopper, and R.~Dingledine, ``Methodically modeling the tor network.'' in \emph{CSET}, 2012.
 
-\bibitem{sendner2023tormult}
-C.~Sendner, J.~Stang, A.~Dmitrienko, R.~Wijewickrama, and M.~Jadliwala, ``Tormult: introducing a novel tor bandwidth inflation attack,'' \emph{arXiv preprint arXiv:2307.08550}, 2023.
+\bibitem{sendner2024mirageflow}
+C.~Sendner, J.~Stang, A.~Dmitrienko, R.~Wijewickrama, and M.~Jadliwala, ``Mirageflow: A new bandwidth inflation attack on tor.'' in \emph{NDSS}, 2024.
 
 \bibitem{luo2026five}
 Z.~Luo, J.~Zhang, A.~Neerati, and A.~Kate, ``Five minutes of ddos brings down tor: Ddos attacks on the tor directory protocol and mitigations,'' in \emph{Proceedings of the 21st European Conference on Computer Systems}, 2026, pp. 1314--1329.
@@ -133,6 +136,9 @@ J.~K. Holland and N.~Hopper, ``Regulator: A straightforward website fingerprinti
 
 \bibitem{al2023darkhorse}
 M.~W. Al~Azad, H.~Zahan, S.~U. Taki, and S.~Mastorakis, ``Darkhorse: A udp-based framework to improve the latency of tor onion services,'' in \emph{2023 IEEE 48th Conference on Local Computer Networks (LCN)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 1--6.
+
+\bibitem{sendner2023tormult}
+C.~Sendner, J.~Stang, A.~Dmitrienko, R.~Wijewickrama, and M.~Jadliwala, ``Tormult: introducing a novel tor bandwidth inflation attack,'' \emph{arXiv preprint arXiv:2307.08550}, 2023.
 
 \bibitem{macmillan2020evaluating}
 K.~MacMillan, J.~Holland, and P.~Mittal, ``Evaluating snowflake as an indistinguishable censorship circumvention tool,'' \emph{arXiv preprint arXiv:2008.03254}, 2020.
