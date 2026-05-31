@@ -147,49 +147,49 @@ M.~W. Al~Azad, H.~Zahan, S.~U. Taki, and S.~Mastorakis, ``Darkhorse: A udp-based
 Z.~Sun and V.~Shmatikov, ``Differential degradation vulnerabilities in censorship circumvention systems,'' \emph{arXiv preprint arXiv:2409.06247}, 2024.
 
 \bibitem{casenove2014botnet}
-M.~Casenove and A.~Miraglia, ``Botnet over tor: The illusion of hiding,'' in \emph{2014 6th International Conference on Cyber Conflict}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014.
+M.~Casenove and A.~Miraglia, ``Botnet over tor: The illusion of hiding,'' in \emph{2014 6th International Conference On Cyber Conflict (CyCon 2014)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014, pp. 273--282.
 
 \bibitem{rapid7skynet}
-{Rapid7}, ``Skynet, a tor-powered botnet straight from reddit,'' \url{https://www.rapid7.com/blog/post/2012/12/06/skynet-a-tor-powered-botnet-straight-from-reddit/}, 2012.
+C.~S. GUARNIERI and M.~Schloesser, ``a tor-powered botnet straight from reddit,'' 2012.
 
 \bibitem{kaspersky2013chewbacca}
 {Kaspersky Securelist}, ``Chewbacca -- a new episode of tor-based malware,'' \url{https://securelist.com/chewbacca/58192/}, 2013.
 
 \bibitem{torproject2013mevade}
-{The Tor Project}, ``How to handle millions of new tor clients,'' \url{https://blog.torproject.org/how-to-handle-millions-new-tor-clients/}, 2013.
+{The Tor Project}, ``How to handle millions of new tor clients,'' \url{https://blog.torproject.org/how-handle-millions-new-tor-clients/}, 2013.
 
 \bibitem{fortinet2017brickerbot}
-{Fortinet FortiGuard Labs}, ``Bricker bot -- a silver lining to force accountability for iot security?'' \url{https://www.fortinet.com/blog/threat-research/brickerbot}, 2017.
+{Fortinet FortiGuard Labs}, ``Bricker bot -- a silver lining to force accountability for iot security?'' \url{https://www.fortinet.com/blog/threat-research/bricker-bot-a-silver-lining-to-force-accountability-for-iot-security}, 2017.
 
 \bibitem{fortinet2022enemybot}
 ------, ``Enemybot: A look into keksec's latest ddos botnet,'' \url{https://www.fortinet.com/blog/threat-research/enemybot-a-look-into-keksecs-latest-ddos-botnet}, 2022.
 
-\bibitem{li2025tpoti}
-M.~Li \emph{et~al.}, ``Tpoti: A triplet-network-based obfuscated tor traffic identification,'' in \emph{IFIP Networking}, 2025.
+\bibitem{litpoti}
+M.~Li, C.~Wu, W.~Zhao, and T.~Song, ``Tpoti: A triplet-network-based obfuscated tor traffic identification.''
 
 \bibitem{dodia2022exposing}
-P.~Dodia, M.~AlSabah, O.~Alrawi, and T.~Wang, ``Exposing the rat in the tunnel: Using traffic analysis for tor-based malware detection,'' in \emph{Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security}, 2022.
+P.~Dodia, M.~AlSabah, O.~Alrawi, and T.~Wang, ``Exposing the rat in the tunnel: Using traffic analysis for tor-based malware detection,'' in \emph{Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security}, 2022, pp. 875--889.
 
 \bibitem{oskera2025periodic}
-D.~O{\v{s}}kera, J.~Koumar, A.~Pokorn{\'a}, K.~Je{\v{r}}{\'a}bek, and T.~{\v{C}}ejka, ``Botnet detection through periodic patterns in command-and-control network traffic,'' in \emph{IFIP/IEEE International Symposium on Integrated Network Management (CNSM)}, 2025.
+D.~O{\v{s}}kera, J.~Koumar, A.~Pokorn{\'a}, K.~Je{\v{r}}{\'a}bek, and T.~{\v{C}}ejka, ``Botnet detection through periodic patterns in command-and-control network traffic,'' in \emph{2025 21st International Conference on Network and Service Management (CNSM)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2025, pp. 1--6.
 
 \bibitem{wu2024peerg}
 G.~Wu, X.~Wang, and J.~Zhang, ``Peerg: A p2p botnet detection method based on representation learning and graph contrastive learning,'' \emph{Computers \& Security}, vol. 140, p. 103775, 2024.
 
 \bibitem{putra2024bcat}
-M.~A.~R. Putra, T.~Ahmad, and D.~P. Hostiadi, ``B-cat: a model for detecting botnet attacks using deep attack behavior analysis on network traffic flows,'' \emph{Journal of Big Data}, vol.~11, p.~49, 2024.
+M.~Putra, T.~Ahmad, and D.~Hostiadi, ``B-cat: a model for detecting botnet attacks using deep attack behavior analysis on network traffic flows. j. big data. 11 (1), 49 (2024).''
 
 \bibitem{cebere2024down}
-B.~Cebere, J.~Flueren, S.~Sebasti{\'a}n, D.~Plohmann, and C.~Rossow, ``Down to earth! guidelines for dga-based malware detection,'' in \emph{Proceedings of the 27th International Symposium on Research in Attacks, Intrusions and Defenses (RAID)}, 2024.
+B.~C. Cebere, J.~L.~B. Flueren, S.~Sebasti{\'a}n, D.~Plohmann, and C.~Rossow, ``Down to earth! guidelines for dga-based malware detection,'' in \emph{Proceedings of the 27th international symposium on research in attacks, intrusions and defenses}, 2024, pp. 147--165.
 
 \bibitem{drichel2024robust}
-A.~Drichel, M.~Meyer, and U.~Meyer, ``Towards robust domain generation algorithm classification,'' in \emph{Proceedings of the 19th ACM Asia Conference on Computer and Communications Security (AsiaCCS)}, 2024.
+A.~Drichel, M.~Meyer, and U.~Meyer, ``Towards robust domain generation algorithm classification,'' in \emph{Proceedings of the 19th ACM Asia Conference on Computer and Communications Security}, 2024, pp. 2--18.
 
 \bibitem{xie2024domeye}
 Y.~Xie, G.~Gou, G.~Xiong, Z.~Li, and W.~Xia, ``Domeye: Detecting network covert channel of domain fronting with throughput fluctuation,'' \emph{Computers \& Security}, vol. 144, p. 103976, 2024.
 
 \bibitem{barradas2024extending}
-D.~Barradas, C.~Novo, B.~Portela, S.~Romeiro, and N.~Santos, ``Extending c2 traffic detection methodologies: From tls 1.2 to tls 1.3-enabled malware,'' in \emph{Proceedings of the 27th International Symposium on Research in Attacks, Intrusions and Defenses (RAID)}, 2024.
+D.~Barradas, C.~Novo, B.~Portela, S.~Romeiro, and N.~Santos, ``Extending c2 traffic detection methodologies: From tls 1.2 to tls 1.3-enabled malware,'' in \emph{Proceedings of the 27th International Symposium on Research in Attacks, Intrusions and Defenses}, 2024, pp. 181--196.
 
 \bibitem{hossain2025htabotdef}
 M.~A. Hossain and M.~S. Islam, ``Hta-botdef: A novel hierarchical tree aggregation for scalable and privacy preserving botnet attack detection with federated learning,'' \emph{Journal of Information and Intelligence}, 2025.

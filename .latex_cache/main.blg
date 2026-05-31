@@ -13,47 +13,49 @@ Database file #1: references.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in dingledine2004tor
 Warning--empty journal in jansen2014sniper
+Warning--empty journal in litpoti
+Warning--empty year in litpoti
 
 Done.
 You've used 61 entries,
             4087 wiz_defined-function locations,
-            1099 strings with 18928 characters,
-and the built_in function-call counts, 38874 in all, are:
-= -- 2937
-> -- 1058
-< -- 201
-+ -- 546
-- -- 211
-* -- 1744
-:= -- 5792
-add.period$ -- 128
+            1101 strings with 19058 characters,
+and the built_in function-call counts, 40845 in all, are:
+= -- 3090
+> -- 1113
+< -- 246
++ -- 581
+- -- 214
+* -- 1841
+:= -- 5975
+add.period$ -- 129
 call.type$ -- 61
 change.case$ -- 62
-chr.to.int$ -- 492
-cite$ -- 63
-duplicate$ -- 2987
-empty$ -- 3538
-format.name$ -- 262
-if$ -- 9128
+chr.to.int$ -- 615
+cite$ -- 65
+duplicate$ -- 3075
+empty$ -- 3636
+format.name$ -- 266
+if$ -- 9605
 int.to.chr$ -- 0
 int.to.str$ -- 61
-missing$ -- 565
+missing$ -- 572
 newline$ -- 206
 num.names$ -- 61
-pop$ -- 1509
+pop$ -- 1527
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3052
+skip$ -- 3189
 stack$ -- 0
-substring$ -- 1259
-swap$ -- 2089
-text.length$ -- 37
+substring$ -- 1541
+swap$ -- 2224
+text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 61
-warning$ -- 2
-while$ -- 146
+warning$ -- 4
+while$ -- 169
 width$ -- 63
-write$ -- 545
-(There were 2 warnings)
+write$ -- 544
+(There were 4 warnings)
