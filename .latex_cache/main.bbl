@@ -159,10 +159,10 @@ C.~S. GUARNIERI and M.~Schloesser, ``a tor-powered botnet straight from reddit,'
 {The Tor Project}, ``How to handle millions of new tor clients,'' \url{https://blog.torproject.org/how-handle-millions-new-tor-clients/}, 2013.
 
 \bibitem{fortinet2017brickerbot}
-{Fortinet FortiGuard Labs}, ``Bricker bot -- a silver lining to force accountability for iot security?'' \url{https://www.fortinet.com/blog/threat-research/bricker-bot-a-silver-lining-to-force-accountability-for-iot-security}, 2017.
+F.~F. Labs, ``Bricker bot -- a silver lining to force accountability for iot security?'' \url{https://www.fortinet.com/blog/threat-research/bricker-bot-a-silver-lining-to-force-accountability-for-iot-security}, 2017.
 
 \bibitem{fortinet2022enemybot}
-------, ``Enemybot: A look into keksec's latest ddos botnet,'' \url{https://www.fortinet.com/blog/threat-research/enemybot-a-look-into-keksecs-latest-ddos-botnet}, 2022.
+{Fortinet FortiGuard Labs}, ``Enemybot: A look into keksec's latest ddos botnet,'' \url{https://www.fortinet.com/blog/threat-research/enemybot-a-look-into-keksecs-latest-ddos-botnet}, 2022.
 
 \bibitem{litpoti}
 M.~Li, C.~Wu, W.~Zhao, and T.~Song, ``Tpoti: A triplet-network-based obfuscated tor traffic identification.''

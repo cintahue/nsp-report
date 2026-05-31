@@ -19,7 +19,7 @@ Warning--empty year in litpoti
 Done.
 You've used 61 entries,
             4087 wiz_defined-function locations,
-            1101 strings with 19058 characters,
+            1102 strings with 19082 characters,
 and the built_in function-call counts, 40845 in all, are:
 = -- 3090
 > -- 1113
@@ -27,7 +27,7 @@ and the built_in function-call counts, 40845 in all, are:
 + -- 581
 - -- 214
 * -- 1841
-:= -- 5975
+:= -- 5976
 add.period$ -- 129
 call.type$ -- 61
 change.case$ -- 62
@@ -36,7 +36,7 @@ cite$ -- 65
 duplicate$ -- 3075
 empty$ -- 3636
 format.name$ -- 266
-if$ -- 9605
+if$ -- 9604
 int.to.chr$ -- 0
 int.to.str$ -- 61
 missing$ -- 572
