@@ -50,10 +50,17 @@
 \contentsline {subsubsection}{\numberline {4.5.1}攻击者策略与防御者响应}{17}{subsubsection.4.5.1}%
 \contentsline {subsubsection}{\numberline {4.5.2}可解释归因与对抗鲁棒性}{17}{subsubsection.4.5.2}%
 \contentsline {subsubsection}{\numberline {4.5.3}隐私保护与去匿名化边界}{18}{subsubsection.4.5.3}%
-\contentsline {section}{\numberline {5}系统分析与讨论}{19}{section.5}%
-\contentsline {subsection}{\numberline {5.1}匿名网络、Tor 与僵尸网络的技术关联}{19}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}低时延可用性与抗流量分析能力的矛盾}{20}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}匿名性、可追责性与滥用治理的张力}{20}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}评估范式：从高准确率到真实可部署性}{21}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}未来研究方向}{22}{subsection.5.5}%
-\contentsline {section}{\numberline {6}结论}{23}{section.6}%
+\contentsline {section}{\numberline {5}真实案例攻防演化}{18}{section.5}%
+\contentsline {subsection}{\numberline {5.1}从传统僵尸网络到 Tor 隐藏 C\&C}{18}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}供应链场景中的匿名化 C\&C}{20}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}MaaS 化远控中的 Tor 通道}{20}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}云原生基础设施中的匿名化滥用}{21}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}攻防演化的阶段性特征}{21}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}小结}{21}{subsection.5.6}%
+\contentsline {section}{\numberline {6}系统分析与讨论}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}匿名网络、Tor 与僵尸网络的技术关联}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}低时延可用性与抗流量分析能力的矛盾}{23}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}匿名性、可追责性与滥用治理的张力}{23}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}评估范式：从高准确率到真实可部署性}{24}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}未来研究方向}{25}{subsection.6.5}%
+\contentsline {section}{\numberline {7}结论}{26}{section.7}%
