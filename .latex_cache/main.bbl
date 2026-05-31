@@ -68,6 +68,12 @@ C.~Kocao{\u{g}}ullar, D.~Hugenroth, M.~Kleppmann, and A.~R. Beresford, ``Pudding
 \bibitem{dong2025ring}
 W.~Dong, P.~Jiang, H.~Duan, C.~Wang, L.~Zhao, and Q.~Wang, ``Ring of gyges: Accountable anonymous broadcast via secret-shared shuffle.'' in \emph{NDSS}, 2025.
 
+\bibitem{macmillan2020evaluating}
+K.~MacMillan, J.~Holland, and P.~Mittal, ``Evaluating snowflake as an indistinguishable censorship circumvention tool,'' \emph{arXiv preprint arXiv:2008.03254}, 2020.
+
+\bibitem{vilalonga2026obscura}
+A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling ephemeral proxies for traffic encapsulation in webrtc media streams against cost-effective censors,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2026.
+
 \bibitem{holland2023detorrent}
 J.~K. Holland, J.~Carpenter, S.~E. Oh, and N.~Hopper, ``Detorrent: An adversarial padding-only traffic analysis defense,'' \emph{arXiv preprint arXiv:2302.02012}, 2023.
 
@@ -137,14 +143,8 @@ J.~K. Holland and N.~Hopper, ``Regulator: A straightforward website fingerprinti
 \bibitem{al2023darkhorse}
 M.~W. Al~Azad, H.~Zahan, S.~U. Taki, and S.~Mastorakis, ``Darkhorse: A udp-based framework to improve the latency of tor onion services,'' in \emph{2023 IEEE 48th Conference on Local Computer Networks (LCN)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 1--6.
 
-\bibitem{macmillan2020evaluating}
-K.~MacMillan, J.~Holland, and P.~Mittal, ``Evaluating snowflake as an indistinguishable censorship circumvention tool,'' \emph{arXiv preprint arXiv:2008.03254}, 2020.
-
 \bibitem{sun2024differential}
 Z.~Sun and V.~Shmatikov, ``Differential degradation vulnerabilities in censorship circumvention systems,'' \emph{arXiv preprint arXiv:2409.06247}, 2024.
-
-\bibitem{vilalonga2026obscura}
-A.~Vilalonga, K.~Gallagher, J.~S. Resende, and H.~Domingos, ``Obscura: Enabling ephemeral proxies for traffic encapsulation in webrtc media streams against cost-effective censors,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2026.
 
 \bibitem{casenove2014botnet}
 M.~Casenove and A.~Miraglia, ``Botnet over tor: The illusion of hiding,'' in \emph{2014 6th International Conference on Cyber Conflict}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014.
@@ -195,7 +195,7 @@ D.~Barradas, C.~Novo, B.~Portela, S.~Romeiro, and N.~Santos, ``Extending c2 traf
 M.~A. Hossain and M.~S. Islam, ``Hta-botdef: A novel hierarchical tree aggregation for scalable and privacy preserving botnet attack detection with federated learning,'' \emph{Journal of Information and Intelligence}, 2025.
 
 \bibitem{karunanayake2024examining}
-I.~Karunanayake, M.~AlSabah, N.~Ahmed, and S.~Jha, ``Examining the rat in the tunnel: Interpretable multi-label classification of tor-based malware,'' \emph{arXiv preprint arXiv:2401.xxxxx}, 2024.
+I.~Karunanayake, M.~AlSabah, N.~Ahmed, and S.~Jha, ``Examining the rat in the tunnel: Interpretable multi-label classification of tor-based malware,'' \emph{arXiv preprint arXiv:2409.16639}, 2024.
 
 \bibitem{tippe2024onion}
 P.~Tippe and A.~Tippe, ``Onion services in the wild: A study of deanonymization attacks,'' \emph{Proceedings on Privacy Enhancing Technologies}, 2024.

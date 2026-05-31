@@ -3,6 +3,9 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{arrows.meta, positioning, calc, shapes.geometric, backgrounds}
 \usepackage{geometry}
 \geometry{margin=1in}
 
@@ -28,24 +31,6 @@
 \providecommand{\reportidA}{PB23071341}
 \providecommand{\reportidB}{PB23071318}
 \providecommand{\reportidC}{PB23071316}
-
-% ===== 封面信息默认值，具体内容在 main.tex 中覆盖 =====
-\providecommand{\reportcourse}{网络安全协议}
-\providecommand{\reporttype}{网络安全协议大作业}
-\providecommand{\reporttopic}{匿名网络、Tor 网络、僵尸网络}
-\providecommand{\reportauthorA}{梁峻玮}
-\providecommand{\reportauthorB}{田丰睿}
-\providecommand{\reportauthorC}{李青宇}
-\providecommand{\reportidA}{PB23071341}
-\providecommand{\reportidB}{PB23071318}
-\providecommand{\reportidC}{PB23071316}
-
-% 三个作者/学号同宽对齐
-\newcommand{\covertriple}[3]{%
-  \makebox[0.17\textwidth][c]{#1}%
-  \makebox[0.17\textwidth][c]{#2}%
-  \makebox[0.17\textwidth][c]{#3}%
-}
 
 % 三个作者/学号同宽对齐
 \newcommand{\covertriple}[3]{%
@@ -102,7 +87,7 @@
 
       \heiti 报告题目： &
       \parbox[t]{0.56\textwidth}{
-        \underline{\makebox[0.56\textwidth][l]{匿名网络中的流量分析与滥用检测研究综述：}}\\[0.45em]
+        \underline{\makebox[0.56\textwidth][l]{匿名网络中的流量分析与滥用检测研究：}}\\[0.45em]
         \underline{\makebox[0.56\textwidth][l]{从 Tor 网络到匿名化僵尸网络}}
       } \\[2.15em]
 

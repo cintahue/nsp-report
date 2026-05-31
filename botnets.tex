@@ -34,7 +34,7 @@
 \subsection{僵尸网络利用 Tor 的模式与真实案例}
 \label{subsec:tor_botnet_cases}
 
-Tor 被僵尸网络利用的方式并不单一。根据 Tor 在控制链中承担的功能，可以将其划分为四类模式：基于洋葱服务的核心 C&C、作为备用控制通道、作为数据外传和管理面板的隐藏层，以及作为扫描、投递或支付环节的辅助匿名层。
+Tor 被僵尸网络利用的方式并不单一。根据 Tor 在控制链中承担的功能，可以将其划分为四类模式：基于洋葱服务的核心 C\&C、作为备用控制通道、作为数据外传和管理面板的隐藏层，以及作为扫描、投递或支付环节的辅助匿名层。
 
 \subsubsection{基于洋葱服务的核心 C\&C}
 
@@ -132,24 +132,24 @@ RAID 的 \textit{Down to earth!} 对 DGA 检测研究进行了系统性元评估
 \begin{table}[htbp]
 \centering
 \scriptsize
-\caption{僵尸网络匿名化/隐蔽化机制与检测方法对应关系}
+\caption{僵尸网络匿名化/隐蔽化机制、代表性工作与检测方法对应关系}
 \label{tab:attacker_defender_mapping}
 \renewcommand{\arraystretch}{1.25}
-\begin{tabular}{@{}p{0.12\textwidth}p{0.20\textwidth}p{0.18\textwidth}p{0.26\textwidth}p{0.20\textwidth}@{}}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.22\textwidth}p{0.22\textwidth}p{0.24\textwidth}p{0.17\textwidth}@{}}
 \hline
-\textbf{层次} & \textbf{攻击者技术与目标} & \textbf{与 Tor 主线的关系} & \textbf{检测思路} & \textbf{主要局限} \\
+\textbf{层次} & \textbf{攻击者技术与目标} & \textbf{代表性工作/案例} & \textbf{检测思路} & \textbf{主要局限} \\
 \hline
-基础设施层 & Tor 洋葱服务、I2P、Lightning Network；隐藏 C\&C 位置与控制者身份 & Tor 是典型的隐藏 C\&C 载体 & 样本逆向提取 onion 地址、Tor 流量识别、主机侧关联、主动测量 & 容易误伤合法匿名用户；去匿名化成本高 \\
+基础设施层 & Tor 洋葱服务、I2P、Lightning Network；隐藏 C\&C 位置与控制者身份 & Skynet、ChewBacca、Sefnit/Mevade、EnemyBot\cite{rapid7skynet,kaspersky2013chewbacca,torproject2013mevade,fortinet2022enemybot} & 样本逆向提取 onion 地址、Tor 流量识别、主机侧关联、主动测量 & 容易误伤合法匿名用户；去匿名化成本高 \\
 \hline
-传输层 & TLS 1.3、domain fronting、HTTPS beaconing；隐藏通信内容与真实目的地 & 常作为 Tor 之外的混合 C\&C 或备用通道 & 证书/对象大小侧信道、吞吐波动、连接序列建模 & 泛化受工具、CDN 和网络环境影响 \\
+传输层 & TLS 1.3、domain fronting、HTTPS beaconing；隐藏通信内容与真实目的地 & DomEye、TLS 1.3 C\&C 行为分析\cite{xie2024domeye,barradas2024extending} & 证书/对象大小侧信道、吞吐波动、连接序列建模 & 泛化受工具、CDN 和网络环境影响 \\
 \hline
-命名层 & DGA、domain flux、fast flux；动态化 C\&C 端点并抵抗封堵 & 可作为 onion 失效后的备用发现机制 & DGA 分类、DNS 行为分析、时间序列检测 & 家族漂移、对抗样本和注册成本变化 \\
+命名层 & DGA、domain flux、fast flux；动态化 C\&C 端点并抵抗封堵 & \textit{Down to earth!}、DGA 鲁棒性研究\cite{cebere2024down,drichel2024robust} & DGA 分类、DNS 行为分析、时间序列检测 & 家族漂移、对抗样本和注册成本变化 \\
 \hline
-拓扑层 & P2P、hybrid、分层代理；降低单点失效并隐藏控制路径 & 减少对单一 Tor 洋葱服务的依赖 & 图学习、社区发现、邻接关系建模 & 依赖全局视角；局部网络易漏检 \\
+拓扑层 & P2P、hybrid、分层代理；降低单点失效并隐藏控制路径 & PeerG、B-CAT\cite{wu2024peerg,putra2024bcat} & 图学习、社区发现、邻接关系建模、顺序流量挖掘 & 依赖全局视角；局部网络易漏检 \\
 \hline
-行为层 & 低频 beaconing、随机延迟、会话切片；规避统计和周期性检测 & 可用于 Tor 与非 Tor C\&C 的共同规避 & 长时序建模、周期性检测、异常行为关联 & 召回率受低频和事件触发影响 \\
+行为层 & 低频 beaconing、随机延迟、会话切片；规避统计和周期性检测 & 周期性 C\&C 检测、LaMP 扰动实验\cite{oskera2025periodic,karunanayake2024examining} & 长时序建模、周期性检测、异常行为关联、家族识别 & 召回率受低频、事件触发和行为整形影响 \\
 \hline
-协同层 & 跨组织协同、隐私保护检测；在不集中原始数据下提升覆盖面 & 缓解 Tor 合法用途与恶意滥用之间的识别难题 & 联邦学习、分层风险评分、最小化监测 & non-IID、模型投毒、隐私泄露和合规差异 \\
+协同层 & 跨组织协同、隐私保护检测；在不集中原始数据下提升覆盖面 & HTA-BotDef\cite{hossain2025htabotdef} & 联邦学习、分层风险评分、最小化监测、隐私保护协同 & non-IID、模型投毒、隐私泄露和合规差异 \\
 \hline
 \end{tabular}
 \end{table}
